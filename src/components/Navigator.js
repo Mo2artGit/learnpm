@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 function NavigationBar() {
   return (
@@ -19,11 +20,15 @@ function NavigationBar() {
           <Nav.Link as={Link} to="/rescources">Rescources</Nav.Link>
           <Navbar.Text>|</Navbar.Text>
         </Nav>
-        <div className="d-flex flex-column align-items-center">
+        <div className="d-flex flex-column align-items-center me-2">
           <Button variant="outline-primary" className="mb-2">View Courses</Button>
-          <small>F T L U</small>
+          <small>
+            <a href="https://www.facebook.com"><FaFacebook /></a>
+            <a href="https://twitter.com"><FaTwitter /></a>
+            <a href="https://www.linkedin.com"><FaLinkedin /></a>
+            <a href="https://www.youtube.com"><FaYoutube /></a>
+          </small>
         </div>
-
       </Navbar.Collapse>
     </Navbar>
 
