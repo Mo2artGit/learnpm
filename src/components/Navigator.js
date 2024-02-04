@@ -20,7 +20,7 @@ function NavigationBar() {
           <Navbar.Text>|</Navbar.Text>
         </Nav>
         <div className="d-flex flex-column align-items-center">
-          <Button variant="outline-primary" className="mb-2">New Courses</Button>
+          <Button variant="outline-primary" className="mb-2">View Courses</Button>
           <small>F T L U</small>
         </div>
 
