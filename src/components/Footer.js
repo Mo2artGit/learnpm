@@ -1,12 +1,14 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <footer className="mt-5">
+        <footer>
             <Container>
+                <p> </p>
                 <Row>
                     <Col>
                         <h5>Learn PM</h5>
@@ -26,7 +28,7 @@ function Footer() {
                         <h5>Follow Us</h5>
                         <p>
                             <a href="https://www.facebook.com"><FaFacebook /></a>
-                            <a href="https://twitter.com"><FaTwitter /></a>
+                            <a href="https://twitter.com"><FaXTwitter /></a>
                             <a href="https://www.linkedin.com"><FaLinkedin /></a>
                             <a href="https://www.youtube.com"><FaYoutube /></a>
                         </p>

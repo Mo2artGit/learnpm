@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function NavigationBar() {
   return (
@@ -24,7 +25,7 @@ function NavigationBar() {
           <Button variant="outline-primary" className="mb-2">View Courses</Button>
           <small>
             <a href="https://www.facebook.com"><FaFacebook /></a>
-            <a href="https://twitter.com"><FaTwitter /></a>
+            <a href="https://twitter.com"><FaXTwitter /></a>
             <a href="https://www.linkedin.com"><FaLinkedin /></a>
             <a href="https://www.youtube.com"><FaYoutube /></a>
           </small>
