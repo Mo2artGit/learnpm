@@ -1,14 +1,19 @@
 import React from 'react';
-import { Form, Stack, Row, Col, Card, Carousel, Container, Button } from 'react-bootstrap';
+import { Image, Form, Stack, Row, Col, Card, Carousel, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import Si1 from './img/si1.jpg';
 import Si2 from './img/si2.jpg';
 import Si3 from './img/si3.jpg';
 import Si4 from './img/si4.jpg';
+import img from './img/img.jpg';
 
 function Home() {
   const scrollImageStyle = {
+    width: '100%', // Adjust the width as needed
+    height: '50vh', // Adjust the height as needed
+  };
+  const imageStyle = {
     width: '100%', // Adjust the width as needed
     height: '30vh', // Adjust the height as needed
   };
@@ -64,9 +69,7 @@ function Home() {
             <Col>
               <Card className='mb-4'>
                 <Card.Body>
-                  <Link to="/assessment">
-                    <Button variant="secondary" size="lg">Assessment</Button>
-                  </Link>
+                  <Image className="d-block w-100" src={img} roundedCircle />
                   <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content...<Link to="/assessment">More</Link>
@@ -77,9 +80,7 @@ function Home() {
             <Col>
               <Card className='mb-4'>
                 <Card.Body>
-                  <Link to="/training">
-                    <Button variant="secondary" size="lg">Training</Button>
-                  </Link>
+                  <Image className="d-block w-100" src={img} roundedCircle />
                   <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content...<Link to="/training">More</Link>
@@ -90,9 +91,7 @@ function Home() {
             <Col>
               <Card className='mb-4'>
                 <Card.Body>
-                  <Link to="/coaching">
-                    <Button variant="secondary" size="lg">Coaching</Button>
-                  </Link>
+                  <Image className="d-block w-100" src={img} roundedCircle />
                   <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content...<Link to="/coaching">More</Link>
@@ -138,15 +137,15 @@ function Home() {
           <Row>
             <Col>
               <h5>SAFe</h5>
-              <p>logo</p>
+              <img src={img} className="d-block w-100" alt="logo" />
             </Col>
             <Col>
               <h5>Scrum Alliance</h5>
-              <p>logo</p>
+              <img src={img} className="d-block w-100" alt="logo" />
             </Col>
             <Col>
               <h5>Scrum.org</h5>
-              <p>logo</p>
+              <img src={img} className="d-block w-100" alt="logo" />
             </Col>
           </Row>
         </Container>
@@ -161,10 +160,10 @@ function Home() {
               className="h-100 justify-content-center align-items-center"
               gap={3}
             >
-              <img src={Si1} className="d-block w-100" alt="First slide" style={scrollImageStyle} />
-              <img src={Si2} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
-              <img src={Si3} className="d-block w-100" alt="Third slide" style={scrollImageStyle} />
-              <img src={Si4} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
+              <img src={img} className="d-block w-100" alt="First slide" style={imageStyle} />
+              <img src={img} className="d-block w-100" alt="Second slide" style={imageStyle} />
+              <img src={img} className="d-block w-100" alt="Third slide" style={imageStyle} />
+              <img src={img} className="d-block w-100" alt="Second slide" style={imageStyle} />
             </Stack>
           </Carousel.Item>
           <Carousel.Item>
@@ -173,10 +172,10 @@ function Home() {
               className="h-100 justify-content-center align-items-center"
               gap={3}
             >
-              <img src={Si3} className="d-block w-100" alt="First slide" style={scrollImageStyle} />
-              <img src={Si4} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
-              <img src={Si2} className="d-block w-100" alt="Third slide" style={scrollImageStyle} />
-              <img src={Si1} className="d-block w-100" alt="First slide" style={scrollImageStyle} />
+              <img src={img} className="d-block w-100" alt="First slide" style={imageStyle} />
+              <img src={img} className="d-block w-100" alt="Second slide" style={imageStyle} />
+              <img src={img} className="d-block w-100" alt="Third slide" style={imageStyle} />
+              <img src={img} className="d-block w-100" alt="First slide" style={imageStyle} />
             </Stack>
           </Carousel.Item>
         </Carousel>
