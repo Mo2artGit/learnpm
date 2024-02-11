@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/learnpm">
       <div className="App">
         <Navigator />
         <Routes>
