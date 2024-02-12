@@ -7,6 +7,9 @@ import Si2 from './img/si2.jpg';
 import Si3 from './img/si3.jpg';
 import Si4 from './img/si4.jpg';
 import img from './img/img.jpg';
+import SA from './img/SA.png';
+import SAFe from './img/SAFe.png';
+import Scrumorg from './img/Scrumorg.png';
 
 function Home() {
   const scrollImageStyle = {
@@ -62,8 +65,8 @@ function Home() {
         </Carousel>
       </section>
       {/*Our Services*/}
-      <section>
-        <h3 className='mt-3 mb-3'>Our Services</h3>
+      <section className="py-4">
+        <h3 className='mb-3'>Our Services</h3>
         <Container>
           <Row>
             <Col>
@@ -104,7 +107,7 @@ function Home() {
       </section>
       {/*About Us*/}
       <section>
-        <h3 className='mb-3'>About Us</h3>
+        <h3 className="py-4">About Us</h3>
         <Container>
           <Row>
             <Col xs={4}>
@@ -131,27 +134,24 @@ function Home() {
         </Container>
       </section>
       {/*Our Partners*/}
-      <section>
+      <section className="py-4">
         <h3 className='mb-3'>Our Partners</h3>
         <Container>
           <Row>
             <Col>
-              <h5>SAFe</h5>
-              <img src={img} className="d-block w-100" alt="logo" />
+              <img src={SA} className="d-block w-100" alt="logo" />
             </Col>
             <Col>
-              <h5>Scrum Alliance</h5>
-              <img src={img} className="d-block w-100" alt="logo" />
+              <img src={SAFe} className="d-block w-100" alt="logo" />
             </Col>
             <Col>
-              <h5>Scrum.org</h5>
-              <img src={img} className="d-block w-100" alt="logo" />
+              <img src={Scrumorg} className="d-block w-100" alt="logo" />
             </Col>
           </Row>
         </Container>
       </section>
       {/*Get Inspired*/}
-      <section>
+      <section className="py-4">
         <h3 className='mb-3'>Get Inspired</h3>
         <Carousel indicators={false}>
           <Carousel.Item>
@@ -181,7 +181,7 @@ function Home() {
         </Carousel>
       </section>
       {/*Sign Up*/}
-      <section className='mt-3'>
+      <section className="py-4">
         <h3 className='mb-3'>Stay Connectd With Us...</h3>
         <p>Receive information on upcoming workshops and insights.</p>
         <Container>

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <footer>
+        <footer className="bg-dark text-light py-4">
             <Container>
                 <p> </p>
                 <Row>
@@ -26,17 +26,16 @@ function Footer() {
                     </Col>
                     <Col>
                         <h5>Follow Us</h5>
-                        <p>
-                            <a href="https://www.facebook.com"><FaFacebook /></a>
-                            <a href="https://twitter.com"><FaXTwitter /></a>
-                            <a href="https://www.linkedin.com"><FaLinkedin /></a>
-                            <a href="https://www.youtube.com"><FaYoutube /></a>
-                        </p>
+                        <small>
+                            <a href="https://www.facebook.com" className="me-2"><FaFacebook style={{ color: '#1877F2' }} /></a>
+                            <a href="https://twitter.com" className="me-2"><FaXTwitter style={{ color: '#000000' }} /></a>
+                            <a href="https://www.linkedin.com" className="me-2"><FaLinkedin style={{ color: '#0A66C2' }} /></a>
+                            <a href="https://www.youtube.com" className="me-2"><FaYoutube style={{ color: '#FF0000' }} /></a>
+                        </small>
                     </Col>
                 </Row>
             </Container>
         </footer>
-
     );
 }
 

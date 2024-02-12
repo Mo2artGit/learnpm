@@ -6,11 +6,11 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function NavigationBar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Navbar.Brand as={Link} to="/" className="ms-4">Learn PM</Navbar.Brand>
+    <Navbar className="px-4" bg="light" expand="lg">
+      <Navbar.Brand as={Link} to="/">Learn PM</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="justify-content-end flex-grow-1 pe-3">
+        <Nav className="justify-content-end align-items-center flex-grow-1 pe-3">
           <Nav.Link as={Link} to="/assessment">Assessment</Nav.Link>
           <NavDropdown title="Training" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} to="/">Public</NavDropdown.Item>
@@ -19,15 +19,15 @@ function NavigationBar() {
           </NavDropdown>
           <Nav.Link as={Link} to="/coaching">Coaching</Nav.Link>
           <Nav.Link as={Link} to="/rescources">Rescources</Nav.Link>
-          <Navbar.Text>|</Navbar.Text>
+          <Navbar.Text className="fs-1">|</Navbar.Text>
         </Nav>
-        <div className="d-flex flex-column align-items-center me-2">
+        <div className="d-flex flex-column align-items-center">
           <Button variant="outline-primary" className="mb-2">View Courses</Button>
           <small>
-            <a href="https://www.facebook.com"><FaFacebook /></a>
-            <a href="https://twitter.com"><FaXTwitter /></a>
-            <a href="https://www.linkedin.com"><FaLinkedin /></a>
-            <a href="https://www.youtube.com"><FaYoutube /></a>
+            <a href="https://www.facebook.com" className="me-2"><FaFacebook style={{ color: '#1877F2' }} /></a>
+            <a href="https://twitter.com" className="me-2"><FaXTwitter style={{ color: '#000000' }} /></a>
+            <a href="https://www.linkedin.com" className="me-2"><FaLinkedin style={{ color: '#0A66C2' }} /></a>
+            <a href="https://www.youtube.com" className="me-2"><FaYoutube style={{ color: '#FF0000' }} /></a>
           </small>
         </div>
       </Navbar.Collapse>
