@@ -18,7 +18,7 @@ function NavigationBar() {
             <NavDropdown.Item as={Link} to="/upcoming">Upcoming Courses</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link as={Link} to="/coaching">Coaching</Nav.Link>
-          <Nav.Link as={Link} to="/rescources">Rescources</Nav.Link>
+          <Nav.Link as={Link} to="/rescources">Resources</Nav.Link>
           <Navbar.Text className="fs-1">|</Navbar.Text>
         </Nav>
         <div className="d-flex flex-column align-items-center">

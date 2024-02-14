@@ -20,6 +20,11 @@ function Home() {
     width: '100%', // Adjust the width as needed
     height: '30vh', // Adjust the height as needed
   };
+  const buttonstyle = {
+    position: 'absolute',
+    bottom: "10%",
+    right: "15%", zIndex: 1
+  };
 
   return (
     <div>
@@ -28,15 +33,20 @@ function Home() {
         <Carousel>
           <Carousel.Item>
             <img src={Si1} className="d-block w-100" alt="First slide" style={scrollImageStyle} />
-            <Button variant="light" style={{ position: 'absolute', bottom: "10%", right: "20%", zIndex: 1 }}>Collaborate</Button>
             <Carousel.Caption>
               <h3>About Us</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>
+                Who We Are: We are your go-to Agile experts with master's degrees and decades of industry experience.
+              </p>
+              <p>
+                What We Do: We are Agile experts providing you with our industry-leading 360° Assessment, coaching, and training.
+              </p>
             </Carousel.Caption>
+            <Button variant="light" style={buttonstyle}>Collaborate</Button>
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si2} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
-            <Button variant="light" style={{ position: 'absolute', bottom: "10%", right: "20%", zIndex: 1 }}>Schedule An Assessment</Button>
+            <Button variant="light" style={buttonstyle}>Schedule An Assessment</Button>
             <Carousel.Caption>
               <h3>Assessment</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -44,7 +54,7 @@ function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si3} className="d-block w-100" alt="Third slide" style={scrollImageStyle} />
-            <Button variant="light" style={{ position: 'absolute', bottom: "10%", right: "20%", zIndex: 1 }}>View Courses</Button>
+            <Button variant="light" style={buttonstyle}>View Courses</Button>
             <Carousel.Caption>
               <h3>Courses</h3>
               <p>
@@ -54,7 +64,9 @@ function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si4} className="d-block w-100" alt="Fourth slide" style={scrollImageStyle} />
-            <Button variant="light" style={{ position: 'absolute', bottom: "10%", right: "20%", zIndex: 1 }}>Our Offerings</Button>
+            <Link to="/coaching">
+              <Button variant="light" style={buttonstyle}>Our Offerings</Button>
+            </Link>
             <Carousel.Caption>
               <h3>Coaching</h3>
               <p>
@@ -74,8 +86,9 @@ function Home() {
                 <Card.Body>
                   <Image className="d-block w-100" src={img} roundedCircle />
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content...<Link to="/assessment">More</Link>
+                    Apex agile experts can perform an Agile Maturity Assessment for your company. We thoroughly
+                    study your business organization and measure how the software development practices you
+                    follow conform to the Agile Manifesto's 12 Agile Principles...<Link to="/assessment">More</Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -85,8 +98,8 @@ function Home() {
                 <Card.Body>
                   <Image className="d-block w-100" src={img} roundedCircle />
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content...<Link to="/training">More</Link>
+                    Working one on one with your own technology leaders, Apex experts share our decades of Agile
+                    expertise, with just the right level of sensitivity and suitability for your business needs...<Link to="/training">More</Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -96,8 +109,9 @@ function Home() {
                 <Card.Body>
                   <Image className="d-block w-100" src={img} roundedCircle />
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content...<Link to="/coaching">More</Link>
+                    Apex coursework will thoroughly prepare you for Agile certification. Having worked side-byside with the three elite certification agencies, we know just what you will need to gain
+                    certification from the three important certification organizations SAFe, Scrum.org, and Scrum
+                    Alliance...<Link to="/coaching">More</Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -126,8 +140,11 @@ function Home() {
               </Row>
             </Col>
             <Col xs={8}>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis justo at velit commodo fermentum. Integer id convallis lorem. Quisque tincidunt massa nec lorem ultrices, non faucibus enim ultricies. Sed venenatis, ligula a varius ullamcorper, elit nunc fermentum dolor, sed ultrices lacus dui nec nulla. Duis eu turpis ac nunc facilisis lacinia. Sed fringilla magna ac justo eleifend, ac placerat nisi vulputate. In eget dolor nec felis consectetur faucibus nec ac lacus. Curabitur non dolor feugiat, volutpat lectus nec, mollis quam. Nulla quis sollicitudin lorem, eget convallis sapien.
+              <p class="text-start">
+                Apex is a boutique Agile consultancy with decades of software development experience. We
+                grew up in the era of structured design methodologies, adapted our learning to the rapid
+                development approaches, and graduated to Agile. Wherever you are in your software evolution,
+                we are there to help in your journey.
               </p>
             </Col>
           </Row>
@@ -139,19 +156,25 @@ function Home() {
         <Container>
           <Row>
             <Col>
-              <img src={SA} className="d-block w-100" alt="logo" />
+              <a href="https://www.scrumalliance.org/">
+                <img src={SA} className="d-block w-100" alt="logo" />
+              </a>
             </Col>
             <Col>
-              <img src={SAFe} className="d-block w-100" alt="logo" />
+              <a href="http://www.scaledagile.com/">
+                <img src={SAFe} className="d-block w-100" alt="logo" />
+              </a>
             </Col>
             <Col>
-              <img src={Scrumorg} className="d-block w-100" alt="logo" />
+              <a href="http://scrum.org">
+                <img src={Scrumorg} className="d-block w-100" alt="logo" />
+              </a>
             </Col>
           </Row>
         </Container>
-      </section>
+      </section >
       {/*Get Inspired*/}
-      <section className="py-4">
+      < section className="py-4" >
         <h3 className='mb-3'>Get Inspired</h3>
         <Carousel indicators={false}>
           <Carousel.Item>
@@ -179,10 +202,10 @@ function Home() {
             </Stack>
           </Carousel.Item>
         </Carousel>
-      </section>
+      </section >
       {/*Sign Up*/}
-      <section className="py-4">
-        <h3 className='mb-3'>Stay Connectd With Us...</h3>
+      < section className="py-4" >
+        <h3 className='mb-3'>Stay Connected With Us...</h3>
         <p>Receive information on upcoming workshops and insights.</p>
         <Container>
           <Row>
@@ -212,7 +235,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section >
       <Footer />
     </div >
   );
