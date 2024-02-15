@@ -3,11 +3,20 @@ import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Logo from './img/learnpm.jpg';
 
 function NavigationBar() {
   return (
     <Navbar className="px-4" bg="light" expand="lg">
-      <Navbar.Brand as={Link} to="/">Learn PM</Navbar.Brand>
+      <Navbar.Brand as={Link} to="/">
+        <img
+          src={Logo}
+          width="60"
+          height="60"
+          className="d-inline-block align-top"
+          alt="Learn PM logo"
+        />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="justify-content-end align-items-center flex-grow-1 pe-3">
