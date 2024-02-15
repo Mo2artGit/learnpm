@@ -22,7 +22,7 @@ function Home() {
   };
   const buttonstyle = {
     position: 'absolute',
-    bottom: "10%",
+    bottom: "8%",
     right: "15%", zIndex: 1
   };
 
@@ -33,7 +33,7 @@ function Home() {
         <Carousel>
           <Carousel.Item>
             <img src={Si1} className="d-block w-100" alt="First slide" style={scrollImageStyle} />
-            <Carousel.Caption>
+            <Carousel.Caption className="mb-4">
               <h3>About Us</h3>
               <p>
                 Who We Are: We are your go-to Agile experts with master's degrees and decades of industry experience.
@@ -47,7 +47,7 @@ function Home() {
           <Carousel.Item>
             <img src={Si2} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
             <Button variant="light" style={buttonstyle}>Schedule An Assessment</Button>
-            <Carousel.Caption>
+            <Carousel.Caption className="mb-4">
               <h3>Assessment</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
@@ -55,7 +55,7 @@ function Home() {
           <Carousel.Item>
             <img src={Si3} className="d-block w-100" alt="Third slide" style={scrollImageStyle} />
             <Button variant="light" style={buttonstyle}>View Courses</Button>
-            <Carousel.Caption>
+            <Carousel.Caption className="mb-4">
               <h3>Courses</h3>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
@@ -67,7 +67,7 @@ function Home() {
             <Link to="/coaching">
               <Button variant="light" style={buttonstyle}>Our Offerings</Button>
             </Link>
-            <Carousel.Caption>
+            <Carousel.Caption className="mb-4">
               <h3>Coaching</h3>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
@@ -156,17 +156,17 @@ function Home() {
         <Container>
           <Row>
             <Col>
-              <a href="https://www.scrumalliance.org/">
+              <a href="https://www.scrumalliance.org/" target="_blank" rel="noopener noreferrer">
                 <img src={SA} className="d-block w-100" alt="logo" />
               </a>
             </Col>
             <Col>
-              <a href="http://www.scaledagile.com/">
+              <a href="http://www.scaledagile.com/" target="_blank" rel="noopener noreferrer">
                 <img src={SAFe} className="d-block w-100" alt="logo" />
               </a>
             </Col>
             <Col>
-              <a href="http://scrum.org">
+              <a href="http://scrum.org" target="_blank" rel="noopener noreferrer">
                 <img src={Scrumorg} className="d-block w-100" alt="logo" />
               </a>
             </Col>

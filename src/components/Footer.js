@@ -27,10 +27,10 @@ function Footer() {
                     <Col>
                         <h5>Follow Us</h5>
                         <small>
-                            <a href="https://www.facebook.com" className="me-2"><FaFacebook style={{ color: '#1877F2' }} /></a>
-                            <a href="https://twitter.com" className="me-2"><FaXTwitter style={{ color: '#000000' }} /></a>
-                            <a href="https://www.linkedin.com" className="me-2"><FaLinkedin style={{ color: '#0A66C2' }} /></a>
-                            <a href="https://www.youtube.com" className="me-2"><FaYoutube style={{ color: '#FF0000' }} /></a>
+                            <a  target="_blank" rel="noopener noreferrer" href="https://www.facebook.com" className="me-2"><FaFacebook style={{ color: '#1877F2' }} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com" className="me-2"><FaXTwitter style={{ color: '#000000' }} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com" className="me-2"><FaLinkedin style={{ color: '#0A66C2' }} /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com" className="me-2"><FaYoutube style={{ color: '#FF0000' }} /></a>
                         </small>
                     </Col>
                 </Row>
