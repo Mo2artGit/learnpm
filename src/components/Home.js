@@ -46,7 +46,9 @@ function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si2} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
-            <Button variant="light" style={buttonstyle}>Schedule An Assessment</Button>
+            <Link to="/assessment">
+              <Button variant="light" style={buttonstyle}>Schedule An Assessment</Button>
+            </Link>
             <Carousel.Caption className="mb-4">
               <h3>Assessment</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
