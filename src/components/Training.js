@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Dropdown, Row, Col } from 'react-bootstrap';
 
 function CustomDropdown({ options, label, selectedOption, setSelectedOption, onReset }) {
@@ -34,9 +35,9 @@ function CustomDropdown({ options, label, selectedOption, setSelectedOption, onR
 function Training() {
   // Sample list of courses
   const courses = [
-    { name: 'Course 1', type: 'Type 1', certifyingBody: 'Body 1', role: 'Role 1', website: 'Website A' },
-    { name: 'Course 2', type: 'Type 2', certifyingBody: 'Body 1', role: 'Role 2', website: 'Website A' },
-    { name: 'Course 3', type: 'Type 1', certifyingBody: 'Body 2', role: 'Role 3', website: 'Website B' },
+    { id: 1, name: 'Course 1', type: 'Type 1', certifyingBody: 'Body 1', role: 'Role 1' },
+    { id: 2, name: 'Course 2', type: 'Type 2', certifyingBody: 'Body 1', role: 'Role 2' },
+    { id: 3, name: 'Course 3', type: 'Type 1', certifyingBody: 'Body 2', role: 'Role 3' },
     // Add more courses as needed
   ];
 
@@ -53,7 +54,7 @@ function Training() {
   });
 
   // Unique list of titles based on filtered courses
-  const filteredTitles = Array.from(new Set(filteredCourses.map(course => course.website)));
+  const filteredTitles = Array.from(new Set(filteredCourses.map(course => course.type)));
 
   // Unique list of types
   const certifyingTypes = Array.from(new Set(courses.map(course => course.type)));
@@ -100,14 +101,16 @@ function Training() {
           <div className="text-start mx-5" key={title}>
             <h2>{title}</h2>
             <div className="d-flex flex-wrap">
-            {
-              filteredCourses.filter(course => course.website === title).map(course => (
-                <div key={course.name}>
-                  <h5>{course.name}</h5>
-                  <p>Name:{course.name} Type: {course.type}, Certifying Body: {course.certifyingBody}, Role: {course.role}</p>
-                </div>
-              ))
-            }
+              {
+                filteredCourses.filter(course => course.type === title).map(course => (
+                  <div key={course.id}>
+                    <h5>
+                      <Link to={`/course/${course.id}`}>{course.name}</Link>
+                    </h5>
+                    <p>Name:{course.name} Type: {course.type}, Certifying Body: {course.certifyingBody}, Role: {course.role}</p>
+                  </div>
+                ))
+              }
             </div>
           </div>
         ))
