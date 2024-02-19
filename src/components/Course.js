@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import courseData from './data/courseData.json';
+import courseData from './data/course_data.json';
 
 function Courses() {
 
