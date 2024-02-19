@@ -51,7 +51,6 @@ function Home() {
             </Link>
             <Carousel.Caption className="mb-4">
               <h3>Assessment</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -59,9 +58,6 @@ function Home() {
             <Button variant="light" style={buttonstyle}>View Courses</Button>
             <Carousel.Caption className="mb-4">
               <h3>Courses</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -71,9 +67,6 @@ function Home() {
             </Link>
             <Carousel.Caption className="mb-4">
               <h3>Coaching</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
