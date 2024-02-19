@@ -1,0 +1,29 @@
+{
+    "1": {
+        "title": "Value Stream Workshop",
+        "duration": "2 days",
+        "cost": "$1000",
+        "about": "A foundational workshop to introduce the concept of Value Streams.",
+        "what": "Value Streams are all about implementing practices and optimizing an organization so that it can provide a continuous flow of value to its customers. We find that today’s businesses are too often focused on delivering products and specific product features without taking into consideration their ultimate value to the customer. Value streams start with and focus specifically on business value provided to the customer.\n Understanding value streams becomes increasingly important as the complexity of your organization grows. Drawing upon parallels from the Scaled Agile Framework (SAFe), many of the techniques that help with coordination and interconnection between Agile processes will also be shown effective at coordinating and delivering value at scale.\n In this workshop you will partner and collaborate with other students representing a broad swath of your corporate know-how. Under the expert guidance of experienced facilitators, you will have the opportunity to immerse yourself in several actual business challenges and then learn how value stream coordination can help you manage the many competing requirements that may interfere with delivering value. You will have the opportunity to experience, practice, and apply new ways of thinking about delivering customer value. In demonstrations of complex organizations, you will see how these practices scale to meet your challenges. Prerequisites: Experience in management is highly desired, whether from IT or from other departments.",
+        "reviews": "• Review 1: Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization. \n• Review 2: Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise. \n• Review 3: Raj is an excellent instructor, always willing to help and great at explaining concepts. \n• Review 4: This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+        "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
+    },
+    "2": {
+        "title": "SAFe® Portfolio Management",
+        "duration": "",
+        "cost": "",
+        "about": "",
+        "what": "",
+        "reviews": "",
+        "instructor": ""
+    },
+    "3": {
+        "title": "Program Increment Workshop",
+        "duration": "",
+        "cost": "",
+        "about": "",
+        "what": "",
+        "reviews": "",
+        "instructor": ""
+    }
+}
