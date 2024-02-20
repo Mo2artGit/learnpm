@@ -7,6 +7,9 @@ import Si2 from './img/si2.jpg';
 import Si3 from './img/si3.jpg';
 import Si4 from './img/si4.jpg';
 import img from './img/img.jpg';
+import AssessmentImg from './img/assessment.jpg';
+import TrainingImg from './img/training.jpg';
+import CoachingImg from './img/coaching.jpg';
 import SA from './img/SA.png';
 import SAFe from './img/SAFe.png';
 import Scrumorg from './img/Scrumorg.png';
@@ -79,7 +82,7 @@ function Home() {
             <Col>
               <Card className='mb-4'>
                 <Card.Body>
-                  <Image className="d-block w-100" src={img} roundedCircle />
+                  <Image className="d-block w-100 mb-3" src={AssessmentImg} />
                   <Card.Text>
                     Apex agile experts can perform an Agile Maturity Assessment for your company. We thoroughly
                     study your business organization and measure how the software development practices you
@@ -91,7 +94,7 @@ function Home() {
             <Col>
               <Card className='mb-4'>
                 <Card.Body>
-                  <Image className="d-block w-100" src={img} roundedCircle />
+                  <Image className="d-block w-100 mb-3" src={TrainingImg} />
                   <Card.Text>
                     Working one on one with your own technology leaders, Apex experts share our decades of Agile
                     expertise, with just the right level of sensitivity and suitability for your business needs...<Link to="/training">More</Link>
@@ -102,7 +105,7 @@ function Home() {
             <Col>
               <Card className='mb-4'>
                 <Card.Body>
-                  <Image className="d-block w-100" src={img} roundedCircle />
+                  <Image className="d-block w-100 mb-3" src={CoachingImg} />
                   <Card.Text>
                     Apex coursework will thoroughly prepare you for Agile certification. Having worked side-byside with the three elite certification agencies, we know just what you will need to gain
                     certification from the three important certification organizations SAFe, Scrum.org, and Scrum
@@ -134,7 +137,7 @@ function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={8}>
+            <Col xs={8} className=' d-flex align-items-center'>
               <p class="text-start">
                 Apex is a boutique Agile consultancy with decades of software development experience. We
                 grew up in the era of structured design methodologies, adapted our learning to the rapid

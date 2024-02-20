@@ -1,14 +1,16 @@
 import React from 'react';
-import img from './img/img.jpg';
+import Img from './img/si2.jpg';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
 function Assessment() {
   return (
-    <div className='pt-3'>
-      <img src={img} alt="img" style={{ width: '30%' }} />
-      <div className="d-flex justify-content-end me-5">
+    <div>
+      <div style={{ height: '30vh', overflow: 'hidden' }}>
+        <img src={Img} alt="Cropped Img" style={{ width: '100%', objectFit: 'cover' }} />
+      </div>
+      <div className="d-flex justify-content-end mt-2 me-5">
         <Link to="/contact">
           <Button variant="outline-primary" >Contact Us</Button>
         </Link>

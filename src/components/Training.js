@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Dropdown, Row, Col } from 'react-bootstrap';
 import Footer from './Footer';
+import Img from './img/si3.jpg';
 
 function CustomDropdown({ options, label, selectedOption, setSelectedOption, onReset }) {
   const handleReset = () => {
@@ -13,7 +14,7 @@ function CustomDropdown({ options, label, selectedOption, setSelectedOption, onR
 
   return (
     <Dropdown>
-      <Dropdown.Toggle variant="primary" id="dropdown-basic">
+      <Dropdown.Toggle variant="dark" id="dropdown-basic">
         {selectedOption ? selectedOption : label}
       </Dropdown.Toggle>
       <Dropdown.Menu>
@@ -92,6 +93,9 @@ function Training() {
   return (
     <div>
       <div style={{ minHeight: '75vh' }}>
+        <div style={{ height: '20vh', overflow: 'hidden' }} className='mb-2'>
+          <img src={Img} alt="Cropped Img" style={{ width: '100%', objectFit: 'cover' }} />
+        </div>
         <Row className="justify-content-start">
           <Col>
             <CustomDropdown
