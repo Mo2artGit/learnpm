@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/learnpm/static/css/main.6d09e4ed.css",
-    "main.js": "/learnpm/static/js/main.df201976.js",
+    "main.js": "/learnpm/static/js/main.418cfe55.js",
     "static/js/787.0f3e5b98.chunk.js": "/learnpm/static/js/787.0f3e5b98.chunk.js",
-    "static/media/si4.jpg": "/learnpm/static/media/si4.5360c8024a27599389fa.jpg",
-    "static/media/si2.jpg": "/learnpm/static/media/si2.e5f3298161d27da9b4a4.jpg",
-    "static/media/si3.jpg": "/learnpm/static/media/si3.0c2eb736e67aeee04868.jpg",
-    "static/media/si1.jpg": "/learnpm/static/media/si1.d7905af3668780dd18d1.jpg",
+    "static/media/si1.jpg": "/learnpm/static/media/si1.f377aafca3fcfa2dcc53.jpg",
+    "static/media/si4.jpg": "/learnpm/static/media/si4.8fd4b928245cec542f21.jpg",
+    "static/media/coaching.jpg": "/learnpm/static/media/coaching.31573678dd3aa4fbbbe8.jpg",
+    "static/media/training.jpg": "/learnpm/static/media/training.fa86c43cfac428ba4a25.jpg",
+    "static/media/si2.jpg": "/learnpm/static/media/si2.45bde1209e8222bc1733.jpg",
+    "static/media/si3.jpg": "/learnpm/static/media/si3.a1b1ccad27b35ebc0135.jpg",
+    "static/media/assessment.jpg": "/learnpm/static/media/assessment.d490befb6831278109a4.jpg",
     "static/media/SA.png": "/learnpm/static/media/SA.025474e05cb648e1166c.png",
     "static/media/SAFe.png": "/learnpm/static/media/SAFe.54dcc7603577fc5a15af.png",
     "static/media/Scrumorg.png": "/learnpm/static/media/Scrumorg.87b77c1b98ecf79e8954.png",
@@ -14,11 +17,11 @@
     "static/media/img.jpg": "/learnpm/static/media/img.e83e00e04a871eaf1317.jpg",
     "index.html": "/learnpm/index.html",
     "main.6d09e4ed.css.map": "/learnpm/static/css/main.6d09e4ed.css.map",
-    "main.df201976.js.map": "/learnpm/static/js/main.df201976.js.map",
+    "main.418cfe55.js.map": "/learnpm/static/js/main.418cfe55.js.map",
     "787.0f3e5b98.chunk.js.map": "/learnpm/static/js/787.0f3e5b98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d09e4ed.css",
-    "static/js/main.df201976.js"
+    "static/js/main.418cfe55.js"
   ]
 }
