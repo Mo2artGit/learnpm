@@ -13,12 +13,12 @@ import Scrumorg from './img/Scrumorg.png';
 
 function Home() {
   const scrollImageStyle = {
-    width: '100%', // Adjust the width as needed
-    height: '50vh', // Adjust the height as needed
+    width: '100%',
+    height: 'auto',
   };
   const imageStyle = {
-    width: '100%', // Adjust the width as needed
-    height: '30vh', // Adjust the height as needed
+    width: '100%',
+    height: '30vh',
   };
   const buttonstyle = {
     position: 'absolute',
