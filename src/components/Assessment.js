@@ -7,7 +7,7 @@ import Footer from './Footer';
 function Assessment() {
   return (
     <div>
-      <div style={{ height: '30vh', overflow: 'hidden' }}>
+      <div style={{ height: '20vh', overflow: 'hidden' }}>
         <img src={Img} alt="Cropped Img" style={{ width: '100%', objectFit: 'cover' }} />
       </div>
       <div className="d-flex justify-content-end mt-2 me-5">

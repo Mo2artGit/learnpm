@@ -37,16 +37,16 @@ function CustomDropdown({ options, label, selectedOption, setSelectedOption, onR
 function Training() {
   // id should match the courseData.json
   const courses = [
-    { id: 1, name: 'Professional Scrum Master Training', type: 'Scrum.org', certifyingBody: '', role: '' },
-    { id: 2, name: 'CSM - Certified Scrum Master', type: 'Scrum Alliance', certifyingBody: '', role: '' },
-    { id: 3, name: 'CSPO - Certified Scrum Product Owner', type: 'Scrum Alliance', certifyingBody: '', role: '' },
-    { id: 4, name: 'CSD - Certified Scrum Developer', type: 'Scrum Alliance', certifyingBody: '', role: '' },
+    { id: 1, name: 'Professional Scrum Master Training', type: 'Scrum.org', certifyingBody: '', role: 'Scrum Master' },
+    { id: 2, name: 'CSM - Certified Scrum Master', type: 'Scrum Alliance', certifyingBody: '', role: 'Scrum Master' },
+    { id: 3, name: 'CSPO - Certified Scrum Product Owner', type: 'Scrum Alliance', certifyingBody: '', role: 'Product Owner' },
+    { id: 4, name: 'CSD - Certified Scrum Developer', type: 'Scrum Alliance', certifyingBody: '', role: 'Developer' },
     { id: 5, name: 'Certified SAFe Agilist', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
-    { id: 6, name: 'Certified SAFe® Scrum Master', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
-    { id: 7, name: 'Certified SAFe® Product Owner / Product Manager', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
+    { id: 6, name: 'Certified SAFe® Scrum Master', type: 'Scaled Agile 5.0', certifyingBody: '', role: 'Scrum Master' },
+    { id: 7, name: 'Certified SAFe® Product Owner / Product Manager', type: 'Scaled Agile 5.0', certifyingBody: '', role: 'Product Owner' },
     { id: 8, name: 'Certified SAFe® Government Practitioner', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
     { id: 9, name: 'Certified SAFe® Program Consultant', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
-    { id: 10, name: 'Certified SAFe® Advanced Scrum Master', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
+    { id: 10, name: 'Certified SAFe® Advanced Scrum Master', type: 'Scaled Agile 5.0', certifyingBody: '', role: 'Scrum Master' },
     { id: 11, name: 'Certified SAFe® DevOps Practitioner', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
     { id: 12, name: 'Certified SAFe® Architect', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
     { id: 13, name: 'Certified SAFe® Practitioner', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
@@ -54,8 +54,8 @@ function Training() {
     { id: 15, name: 'Certified SAFe® Agile Software Engineer', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
     { id: 16, name: 'Certified SAFe® Lean Portfolio Manager', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
     { id: 17, name: 'Certified SAFe® Agile Product Manager', type: 'Scaled Agile 5.0', certifyingBody: '', role: '' },
-    { id: 18, name: 'Professional Scrum Product Owner', type: 'Scrum.org', certifyingBody: '', role: '' },
-    { id: 19, name: 'Professional Scrum Developer', type: 'Scrum.org', certifyingBody: '', role: '' },
+    { id: 18, name: 'Professional Scrum Product Owner', type: 'Scrum.org', certifyingBody: '', role: 'Product Owner' },
+    { id: 19, name: 'Professional Scrum Developer', type: 'Scrum.org', certifyingBody: '', role: 'Developer' },
     { id: 20, name: 'Certified Agile Leadership (CAL1)', type: 'Leadership', certifyingBody: '', role: '' },
     { id: 21, name: 'Project Management Professional', type: 'PMI', certifyingBody: '', role: '' },
     { id: 22, name: 'PMI Agile Certified Practitioner', type: 'PMI', certifyingBody: '', role: '' },
@@ -96,7 +96,7 @@ function Training() {
         <div style={{ height: '20vh', overflow: 'hidden' }} className='mb-2'>
           <img src={Img} alt="Cropped Img" style={{ width: '100%', objectFit: 'cover' }} />
         </div>
-        <Row className="justify-content-start">
+        <Row className="justify-content-start w-100">
           <Col>
             <CustomDropdown
               label="Course Type"

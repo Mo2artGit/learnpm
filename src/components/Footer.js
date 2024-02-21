@@ -14,8 +14,8 @@ function Footer() {
                     <Col>
                         <img
                             src={Logo}
-                            width="60"
-                            height="60"
+                            width="70"
+                            height="70"
                             className="d-inline-block align-top"
                             alt="Learn PM logo"
                         />
@@ -23,12 +23,11 @@ function Footer() {
                     <Col>
                         <h5>Related Links</h5>
                         <ul className="list-unstyled">
-                            <li><Link to="/about">About</Link></li>
-                            <li><Link to="/contact">Contact Us</Link></li>
-                            <li><Link to="/contact">Become A Trainer</Link></li>
+                            <li><Link to="/about" style={{ color: '#dbdcdc', textDecoration: 'none' }}>About</Link></li>
+                            <li><Link to="/contact" style={{ color: '#dbdcdc', textDecoration: 'none' }}>Contact Us</Link></li>
+                            <li><Link to="/contact" style={{ color: '#dbdcdc', textDecoration: 'none' }}>Become A Trainer</Link></li>
                         </ul>
-                        <p>&copy; 2024 Learn PM. All rights reserved.</p>
-
+                        <p className='text-white-50'>&copy; 2024 Learn PM. All rights reserved.</p>
                     </Col>
                     <Col>
                         <h5>Follow Us</h5>

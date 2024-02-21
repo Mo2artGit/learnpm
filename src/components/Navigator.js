@@ -11,8 +11,8 @@ function NavigationBar() {
       <Navbar.Brand as={Link} to="/">
         <img
           src={Logo}
-          width="60"
-          height="60"
+          width="80"
+          height="80"
           className="d-inline-block align-top"
           alt="Learn PM logo"
         />
@@ -28,10 +28,11 @@ function NavigationBar() {
           </NavDropdown>
           <Nav.Link as={Link} to="/coaching">Coaching</Nav.Link>
           <Nav.Link as={Link} to="/rescources">Resources</Nav.Link>
-          <Navbar.Text className="fs-1">|</Navbar.Text>
+          <div className="d-none d-lg-block" style={{ borderLeft: '2px solid black', height: '4rem' }}></div> {/* Vertical line for desktop */}
+          <div className="d-block d-lg-none" style={{ borderTop: '2px solid black', width: '100%', margin: '10px 0' }}></div> {/* Horizontal line for mobile */}
         </Nav>
         <div className="d-flex flex-column align-items-center">
-          <Button variant="outline-primary" className="mb-2">View Courses</Button>
+          <Button variant="outline-dark" className="mb-2">View Courses</Button>
           <small>
             <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com" className="me-2"><FaFacebook style={{ color: '#1877F2' }} /></a>
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com" className="me-2"><FaXTwitter style={{ color: '#000000' }} /></a>

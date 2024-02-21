@@ -21,11 +21,11 @@ function Home() {
   };
   const imageStyle = {
     width: '100%',
-    height: '30vh',
+    height: '20vh',
   };
   const buttonstyle = {
     position: 'absolute',
-    bottom: "8%",
+    bottom: "15%",
     right: "15%", zIndex: 1
   };
 
@@ -36,7 +36,7 @@ function Home() {
         <Carousel>
           <Carousel.Item>
             <img src={Si1} className="d-block w-100" alt="First slide" style={scrollImageStyle} />
-            <Carousel.Caption className="mb-4">
+            <Carousel.Caption style={{ bottom: "18%" }}>
               <h3>About Us</h3>
               <p>
                 Who We Are: We are your go-to Agile experts with master's degrees and decades of industry experience.
@@ -45,30 +45,32 @@ function Home() {
                 What We Do: We are Agile experts providing you with our industry-leading 360° Assessment, coaching, and training.
               </p>
             </Carousel.Caption>
-            <Button variant="light" style={buttonstyle}>Collaborate</Button>
+            <Button variant="outline-light" style={buttonstyle}>Collaborate</Button>
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si2} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
             <Link to="/assessment">
-              <Button variant="light" style={buttonstyle}>Schedule An Assessment</Button>
+              <Button variant="outline-light" style={buttonstyle}>Schedule An Assessment</Button>
             </Link>
-            <Carousel.Caption className="mb-4">
+            <Carousel.Caption style={{ bottom: "18%" }}>
               <h3>Assessment</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si3} className="d-block w-100" alt="Third slide" style={scrollImageStyle} />
-            <Button variant="light" style={buttonstyle}>View Courses</Button>
-            <Carousel.Caption className="mb-4">
+            <Link to="/training">
+              <Button variant="outline-light" style={buttonstyle}>View Courses</Button>
+            </Link>
+            <Carousel.Caption style={{ bottom: "18%" }}>
               <h3>Courses</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si4} className="d-block w-100" alt="Fourth slide" style={scrollImageStyle} />
             <Link to="/coaching">
-              <Button variant="light" style={buttonstyle}>Our Offerings</Button>
+              <Button variant="outline-light" style={buttonstyle}>Our Offerings</Button>
             </Link>
-            <Carousel.Caption className="mb-4">
+            <Carousel.Caption style={{ bottom: "18%" }}>
               <h3>Coaching</h3>
             </Carousel.Caption>
           </Carousel.Item>
@@ -80,36 +82,36 @@ function Home() {
         <Container>
           <Row>
             <Col>
-              <Card className='mb-4'>
+              <Card className='h-100'>
                 <Card.Body>
                   <Image className="d-block w-100 mb-3" src={AssessmentImg} />
                   <Card.Text>
-                    Apex agile experts can perform an Agile Maturity Assessment for your company. We thoroughly
+                    Learn PM agile experts can perform an Agile Maturity Assessment for your company. We thoroughly
                     study your business organization and measure how the software development practices you
-                    follow conform to the Agile Manifesto's 12 Agile Principles...<Link to="/assessment">More</Link>
+                    follow conform to the Agile Manifesto's 12 Agile Principles...<Link to="/assessment" style={{ color: '#999c9a', textDecoration: 'none' }}>More</Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
-              <Card className='mb-4'>
+              <Card className='h-100'>
                 <Card.Body>
                   <Image className="d-block w-100 mb-3" src={TrainingImg} />
                   <Card.Text>
-                    Working one on one with your own technology leaders, Apex experts share our decades of Agile
-                    expertise, with just the right level of sensitivity and suitability for your business needs...<Link to="/training">More</Link>
+                    Working one on one with your own technology leaders, Learn PM experts share our decades of Agile
+                    expertise, with just the right level of sensitivity and suitability for your business needs...<Link to="/training" style={{ color: '#999c9a', textDecoration: 'none' }}>More</Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
-              <Card className='mb-4'>
+              <Card className='h-100'>
                 <Card.Body>
                   <Image className="d-block w-100 mb-3" src={CoachingImg} />
                   <Card.Text>
-                    Apex coursework will thoroughly prepare you for Agile certification. Having worked side-byside with the three elite certification agencies, we know just what you will need to gain
+                    Learn PM coursework will thoroughly prepare you for Agile certification. Having worked side-byside with the three elite certification agencies, we know just what you will need to gain
                     certification from the three important certification organizations SAFe, Scrum.org, and Scrum
-                    Alliance...<Link to="/coaching">More</Link>
+                    Alliance...<Link to="/coaching" style={{ color: '#999c9a', textDecoration: 'none' }}>More</Link>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -139,7 +141,7 @@ function Home() {
             </Col>
             <Col xs={8} className=' d-flex align-items-center'>
               <p class="text-start">
-                Apex is a boutique Agile consultancy with decades of software development experience. We
+                Learn PM is a boutique Agile consultancy with decades of software development experience. We
                 grew up in the era of structured design methodologies, adapted our learning to the rapid
                 development approaches, and graduated to Agile. Wherever you are in your software evolution,
                 we are there to help in your journey.
@@ -225,7 +227,7 @@ function Home() {
               </Form.Group>
             </Col>
           </Row>
-          <Row>
+          <Row className='mt-2'>
             <Col xs={12}>
               <Button variant="secondary" type="submit">
                 Sign Up
