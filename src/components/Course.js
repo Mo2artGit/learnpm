@@ -63,10 +63,10 @@ function Courses() {
               <p>{whatLines}</p>
               <h5>Meet the Instructors</h5>
               <Row>
-                <Col xs={3}>
+                <Col xs={2}>
                   <img src={photoSrc} alt="instructor" className="img-fluid" />
                 </Col>
-                <Col xs={9}>
+                <Col xs={10}>
                   <p>{course.instructor}</p>
                 </Col>
               </Row>
@@ -96,6 +96,7 @@ function Courses() {
             </Col>
           </Row>
         </Container>
+        <Button variant='primary'>Register</Button>
       </div>
       <Footer />
     </div>
