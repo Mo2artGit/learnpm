@@ -32,7 +32,9 @@ function NavigationBar() {
           <div className="d-block d-lg-none" style={{ borderTop: '2px solid black', width: '100%', margin: '10px 0' }}></div> {/* Horizontal line for mobile */}
         </Nav>
         <div className="d-flex flex-column align-items-center">
-          <Button variant="outline-dark" className="mb-2">View Courses</Button>
+          <Link to="/training">
+            <Button variant="outline-dark" className="mb-2">View Courses</Button>
+          </Link>
           <small>
             <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com" className="me-2"><FaFacebook style={{ color: '#1877F2' }} /></a>
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com" className="me-2"><FaXTwitter style={{ color: '#000000' }} /></a>
