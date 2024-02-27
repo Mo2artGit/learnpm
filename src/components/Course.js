@@ -48,9 +48,9 @@ function Courses() {
             </Col>
             <Col xs={9} className='text-start'>
               <h4>{course.title}</h4>
-              <p>S.Date - E.Date</p>
-              <p>Location</p>
-              <Button variant='primary'>Register</Button>
+              <p>Apr 09, 2020 - Today</p>
+              <p>Location: 725 Commonwealth Ave, Boston, MA 02215</p>
+              <Button variant='primary' className="w-25">Register</Button>
             </Col>
           </Row>
         </Container>
@@ -75,11 +75,10 @@ function Courses() {
               <div style={{ borderLeft: '1px solid black', height: '100%' }}></div>
             </Col>
             <Col xs={3}>
-              <p>Length: </p>
+              <p>Length: 2 hours</p>
               <p>Effort Duration: {course.duration}</p>
               <p>Cost: {course.cost}</p>
               <h5>Reviews</h5>
-
               {course.reviews.map((review, index) => (
                 <p key={index}>
                   <Row>
@@ -92,11 +91,10 @@ function Courses() {
                   </Row>
                 </p>
               ))}
-
             </Col>
           </Row>
         </Container>
-        <Button variant='primary'>Register</Button>
+        <Button variant='primary' className="w-25 mt-2">Register</Button>
       </div>
       <Footer />
     </div>

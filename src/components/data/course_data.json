@@ -320,7 +320,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "21": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/pmi.svg",
         "title": "Project Management Professional",
         "duration": "4 days",
         "cost": "$2000",
@@ -336,7 +336,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "22": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/pmi.svg",
         "title": "PMI Agile Certified Practitioner",
         "duration": "2 days",
         "cost": "$1000",
@@ -352,7 +352,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "23": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/SAFe.png",
         "title": "Value Stream Workshop",
         "duration": "2 days",
         "cost": "$1000",
@@ -384,7 +384,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "25": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/SAFe.png",
         "title": "Program Increment Workshop",
         "duration": "3 days",
         "cost": "$1500",
@@ -400,7 +400,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "26": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/SAFe.png",
         "title": "Inspect & Adapt (customized offering)",
         "duration": "3 days",
         "cost": "$1500",
@@ -416,7 +416,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "27": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/SAFe.png",
         "title": "Product Management Workshop (customized offering)",
         "duration": "3 days",
         "cost": "$1500",
@@ -432,7 +432,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "28": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/SAFe.png",
         "title": "Team Building Workshop",
         "duration": "1 day",
         "cost": "$500",
@@ -448,7 +448,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "29": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/SAFe.png",
         "title": "Customized Scrum/Kanban Workshop",
         "duration": "1 day",
         "cost": "$500",
