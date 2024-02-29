@@ -72,7 +72,7 @@ function Courses() {
               </Row>
             </Col>
             <Col xs={1}>
-              <div style={{ borderLeft: '1px solid black', height: '100%' }}></div>
+              <div style={{ borderRight: '1px solid', borderColor: 'Gray', height: '100%' }}></div>
             </Col>
             <Col xs={3}>
               <p>Length: 2 hours</p>
@@ -94,7 +94,7 @@ function Courses() {
             </Col>
           </Row>
         </Container>
-        <Button variant='primary' className="w-25 mt-2">Register</Button>
+        <Button variant='primary' className="w-25 mt-3">Register</Button>
       </div>
       <Footer />
     </div>
