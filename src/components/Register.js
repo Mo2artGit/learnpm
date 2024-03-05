@@ -1,9 +1,13 @@
 import React from 'react';
-import { Button, Form, Col, Row } from 'react-bootstrap';
+import { Button, Form, Col, Row, Container } from 'react-bootstrap';
 
 function Register() {
   return (
-    <div>
+    <Container className='text-start'>
+      <h2>
+        Welcome!
+      </h2>
+      <p>Register Below To Create Your Account</p>
       <Form>
         <Form.Group as={Row} className="mb-3" controlId="formName">
           <Form.Label column sm={2}>
@@ -97,7 +101,7 @@ function Register() {
           </Col>
         </Form.Group>
 
-        <Row>
+        <Row className='text-center'>
           <Col>
             <Button variant="primary" type="submit">
               Reset
@@ -111,7 +115,7 @@ function Register() {
         </Row>
 
       </Form>
-    </div>
+    </Container>
   );
 }
 
