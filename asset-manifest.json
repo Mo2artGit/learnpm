@@ -1,35 +1,39 @@
 {
   "files": {
     "main.css": "/learnpm/static/css/main.6d09e4ed.css",
-    "main.js": "/learnpm/static/js/main.5df00d3e.js",
+    "main.js": "/learnpm/static/js/main.93cc78f5.js",
     "static/js/510.85130014.chunk.js": "/learnpm/static/js/510.85130014.chunk.js",
     "static/js/980.7061716d.chunk.js": "/learnpm/static/js/980.7061716d.chunk.js",
     "static/js/929.599617ba.chunk.js": "/learnpm/static/js/929.599617ba.chunk.js",
     "static/js/865.532bc021.chunk.js": "/learnpm/static/js/865.532bc021.chunk.js",
+    "static/js/528.bf17e764.chunk.js": "/learnpm/static/js/528.bf17e764.chunk.js",
+    "static/js/146.26e2fc56.chunk.js": "/learnpm/static/js/146.26e2fc56.chunk.js",
     "static/js/787.0f3e5b98.chunk.js": "/learnpm/static/js/787.0f3e5b98.chunk.js",
     "static/media/si1.jpg": "/learnpm/static/media/si1.f377aafca3fcfa2dcc53.jpg",
     "static/media/si4.jpg": "/learnpm/static/media/si4.8fd4b928245cec542f21.jpg",
     "static/media/coaching.jpg": "/learnpm/static/media/coaching.31573678dd3aa4fbbbe8.jpg",
     "static/media/training.jpg": "/learnpm/static/media/training.fa86c43cfac428ba4a25.jpg",
     "static/media/si2.jpg": "/learnpm/static/media/si2.45bde1209e8222bc1733.jpg",
+    "static/media/register_bg.png": "/learnpm/static/media/register_bg.eab87fb25984bc4f21e5.png",
     "static/media/si3.jpg": "/learnpm/static/media/si3.a1b1ccad27b35ebc0135.jpg",
     "static/media/instructorRaj.png": "/learnpm/static/media/instructorRaj.7bdf4b0f17de8aa1b64d.png",
     "static/media/assessment.jpg": "/learnpm/static/media/assessment.d490befb6831278109a4.jpg",
+    "static/media/register.svg": "/learnpm/static/media/register.2c21ada88baa21e980123a58aebdd3eb.svg",
     "static/media/SA.png": "/learnpm/static/media/SA.025474e05cb648e1166c.png",
     "static/media/instructorRaj.jpg": "/learnpm/static/media/instructorRaj.9cd84e64c170dbc6a44e.jpg",
     "static/media/SAFe.png": "/learnpm/static/media/SAFe.54dcc7603577fc5a15af.png",
     "static/media/Scrumorg.png": "/learnpm/static/media/Scrumorg.87b77c1b98ecf79e8954.png",
-    "static/media/pmi.svg": "/learnpm/static/media/pmi.46612630dd1cd5517403.svg",
+    "static/media/pmi.svg": "/learnpm/static/media/pmi.46612630dd1cd5517403d86cb62d1b17.svg",
     "static/media/learnpm.jpg": "/learnpm/static/media/learnpm.6c68fede04fda36ba671.jpg",
     "static/media/img.jpg": "/learnpm/static/media/img.e83e00e04a871eaf1317.jpg",
     "static/media/review3.png": "/learnpm/static/media/review3.a71bff4b4739bbedcf61.png",
     "index.html": "/learnpm/index.html",
     "main.6d09e4ed.css.map": "/learnpm/static/css/main.6d09e4ed.css.map",
-    "main.5df00d3e.js.map": "/learnpm/static/js/main.5df00d3e.js.map",
+    "main.93cc78f5.js.map": "/learnpm/static/js/main.93cc78f5.js.map",
     "787.0f3e5b98.chunk.js.map": "/learnpm/static/js/787.0f3e5b98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d09e4ed.css",
-    "static/js/main.5df00d3e.js"
+    "static/js/main.93cc78f5.js"
   ]
 }
