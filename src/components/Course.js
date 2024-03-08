@@ -44,7 +44,11 @@ function Courses() {
         <Container>
           <Row>
             <Col xs={3}>
-              <img src={logoSrc} alt="logo" className="img-fluid" />
+              {logoSrc ? (
+                <img src={logoSrc} alt="logo" className="img-fluid" />
+              ) : (
+                <div>Logo not available</div>
+              )}
             </Col>
             <Col xs={9} className='text-start'>
               <h4>{course.title}</h4>

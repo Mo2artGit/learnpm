@@ -23,7 +23,7 @@ function NavigationBar() {
           <Nav.Link as={Link} to="/assessment">Assessment</Nav.Link>
           <NavDropdown title="Training" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} to="/training">Public</NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/training">Corporate</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/corporate">Corporate</NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/upcoming">Upcoming Courses</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link as={Link} to="/coaching">Coaching</Nav.Link>
