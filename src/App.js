@@ -11,16 +11,19 @@ import Coaching from './components/Coaching';
 import About from './components/About';
 import Contact from './components/Contact';
 import './App.css';
+import ScrollController from "./components/ScrollController";
 
 function App() {
   return (
     <Router basename="/learnpm">
       <div className="App">
+        <ScrollController />
         <Navigator />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/training" element={<Training />} />
+          <Route path="/corporate" element={<Training />} />
           <Route path="/course/:courseId" element={<Course />} />
           <Route path="/register" element={<Register />} />
           <Route path="/upcoming" element={<Upcoming />} />

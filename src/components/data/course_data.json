@@ -1,6 +1,6 @@
 {
     "1": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/course_logo/cl1.png",
         "title": "Professional Scrum Master Training",
         "duration": "2 days",
         "cost": "$1000",
@@ -16,7 +16,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "2": {
-        "logo": "./img/SA.png",
+        "logo": "./img/course_logo/cl2.png",
         "title": "CSM - Certified Scrum Master",
         "duration": "2 days",
         "cost": "$1000",
@@ -32,7 +32,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "3": {
-        "logo": "./img/SA.png",
+        "logo": "./img/course_logo/cl3.png",
         "title": "CSPO - Certified Scrum Product Owner",
         "duration": "2 days",
         "cost": "$1000",
@@ -48,7 +48,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "4": {
-        "logo": "./img/SA.png",
+        "logo": "./img/course_logo/cl4.png",
         "title": "CSD - Certified Scrum Developer",
         "duration": "5 days",
         "cost": "$3000",
@@ -64,7 +64,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "5": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl5.png",
         "title": "Certified SAFe Agilist",
         "duration": "2 days",
         "cost": "$1000",
@@ -80,7 +80,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "6": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl6.png",
         "title": "Certified SAFe® Scrum Master",
         "duration": "2 days",
         "cost": "$1000",
@@ -96,7 +96,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "7": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl7.png",
         "title": "Certified SAFe® Product Owner / Product Manager",
         "duration": "2 days",
         "cost": "$1000",
@@ -112,7 +112,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "8": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl8.png",
         "title": "Certified SAFe® Government Practitioner",
         "duration": "2 days",
         "cost": "$1000",
@@ -128,7 +128,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "9": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl9.png",
         "title": "Certified SAFe® Program Consultant",
         "duration": "4 days",
         "cost": "$2000",
@@ -144,7 +144,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "10": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl10.png",
         "title": "Certified SAFe® Advanced Scrum Master",
         "duration": "2 days",
         "cost": "$1000",
@@ -160,7 +160,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "11": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl11.png",
         "title": "Certified SAFe® DevOps Practitioner",
         "duration": "2 days",
         "cost": "$1000",
@@ -176,7 +176,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "12": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl12.png",
         "title": "Certified SAFe® Architect",
         "duration": "3 days",
         "cost": "$1500",
@@ -192,7 +192,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "13": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl13.png",
         "title": "Certified SAFe® Practitioner",
         "duration": "2 days",
         "cost": "$1000",
@@ -208,7 +208,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "14": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl14.png",
         "title": "Certified SAFe® Release Train Engineer",
         "duration": "3 days",
         "cost": "$1500",
@@ -224,7 +224,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "15": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl15.png",
         "title": "Certified SAFe® Agile Software Engineer",
         "duration": "3 days",
         "cost": "$1500",
@@ -240,7 +240,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "16": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl16.png",
         "title": "Certified SAFe® Lean Portfolio Manager",
         "duration": "3 days",
         "cost": "$1500",
@@ -256,7 +256,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "17": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl17.png",
         "title": "Certified SAFe® Agile Product Manager",
         "duration": "3 days",
         "cost": "$1500",
@@ -272,7 +272,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "18": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/course_logo/cl18.png",
         "title": "Professional Scrum Product Owner",
         "duration": "2 days",
         "cost": "$1000",
@@ -288,7 +288,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "19": {
-        "logo": "./img/Scrumorg.png",
+        "logo": "./img/course_logo/cl19.png",
         "title": "Professional Scrum Developer",
         "duration": "3 days",
         "cost": "$1500",
@@ -304,7 +304,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "20": {
-        "logo": "./img/SA.png",
+        "logo": "./img/course_logo/cl20.png",
         "title": "Certified Agile Leadership (CAL1)",
         "duration": "2 days",
         "cost": "$1000",
@@ -320,7 +320,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "21": {
-        "logo": "./img/pmi.svg",
+        "logo": "./img/course_logo/cl21.png",
         "title": "Project Management Professional",
         "duration": "4 days",
         "cost": "$2000",
@@ -336,7 +336,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "22": {
-        "logo": "./img/pmi.svg",
+        "logo": "./img/course_logo/cl22.png",
         "title": "PMI Agile Certified Practitioner",
         "duration": "2 days",
         "cost": "$1000",
@@ -352,7 +352,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "23": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl23.png",
         "title": "Value Stream Workshop",
         "duration": "2 days",
         "cost": "$1000",
@@ -368,7 +368,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "24": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl24.png",
         "title": "SAFe® Portfolio Management",
         "duration": "2 days",
         "about": "A foundational Lean-Agile and Portfolio operations course for SAFe portfolio managers.",
@@ -384,7 +384,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "25": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl25.png",
         "title": "Program Increment Workshop",
         "duration": "3 days",
         "cost": "$1500",
@@ -400,7 +400,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "26": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl26.png",
         "title": "Inspect & Adapt (customized offering)",
         "duration": "3 days",
         "cost": "$1500",
@@ -416,7 +416,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "27": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl27.png",
         "title": "Product Management Workshop (customized offering)",
         "duration": "3 days",
         "cost": "$1500",
@@ -432,7 +432,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "28": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl28.png",
         "title": "Team Building Workshop",
         "duration": "1 day",
         "cost": "$500",
@@ -448,7 +448,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "29": {
-        "logo": "./img/SAFe.png",
+        "logo": "./img/course_logo/cl29.png",
         "title": "Customized Scrum/Kanban Workshop",
         "duration": "1 day",
         "cost": "$500",
