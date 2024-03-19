@@ -10,6 +10,7 @@ import Upcoming from './components/Upcoming';
 import Coaching from './components/Coaching';
 import About from './components/About';
 import Contact from './components/Contact';
+import Term from './components/Term';
 import './App.css';
 import ScrollController from "./components/ScrollController";
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/coaching" element={<Coaching />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/term" element={<Term />} />
         </Routes>
       </div>
     </Router>
