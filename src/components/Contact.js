@@ -141,7 +141,6 @@ function Contact() {
             <Footer />
         </>
     );
-
 }
 
 export default Contact;

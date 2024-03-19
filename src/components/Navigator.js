@@ -23,16 +23,15 @@ function NavigationBar() {
           <Nav.Link as={Link} to="/assessment">Assessment</Nav.Link>
           <NavDropdown title="Training" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} to="/training">Public</NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/training">Corporate</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/corporate">Corporate</NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/upcoming">Upcoming Courses</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link as={Link} to="/coaching">Coaching</Nav.Link>
-          <Nav.Link as={Link} to="/rescources">Resources</Nav.Link>
-          <div className="d-none d-lg-block" style={{ borderLeft: '2px solid black', height: '4rem' }}></div> {/* Vertical line for desktop */}
-          <div className="d-block d-lg-none" style={{ borderTop: '2px solid black', width: '100%', margin: '10px 0' }}></div> {/* Horizontal line for mobile */}
+          <div className="d-none d-lg-block" style={{ borderLeft: '1px solid black', height: '4rem' }}></div> {/* Vertical line for desktop */}
+          <div className="d-block d-lg-none" style={{ borderTop: '1px solid black', width: '100%', margin: '10px 0' }}></div> {/* Horizontal line for mobile */}
         </Nav>
         <div className="d-flex flex-column align-items-center">
-          <Link to="/training">
+          <Link to="/upcoming">
             <Button variant="outline-dark" className="mb-2">View Courses</Button>
           </Link>
           <small>

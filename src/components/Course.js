@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import courseData from './data/course_data.json';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import reviewImage1 from './img/review1.png';
@@ -44,13 +44,19 @@ function Courses() {
         <Container>
           <Row>
             <Col xs={3}>
-              <img src={logoSrc} alt="logo" className="img-fluid" />
+              {logoSrc ? (
+                <img src={logoSrc} alt="logo" className="img-fluid" />
+              ) : (
+                <div>Logo not available</div>
+              )}
             </Col>
             <Col xs={9} className='text-start'>
               <h4>{course.title}</h4>
               <p>Apr 09, 2020 - Today</p>
               <p>Location: 725 Commonwealth Ave, Boston, MA 02215</p>
-              <Button variant='primary' className="w-25">Register</Button>
+              <Link to="/register">
+                <Button variant='primary' className="w-25">Register</Button>
+              </Link>
             </Col>
           </Row>
         </Container>
@@ -94,7 +100,9 @@ function Courses() {
             </Col>
           </Row>
         </Container>
-        <Button variant='primary' className="w-25 mt-3">Register</Button>
+        <Link to="/register">
+          <Button variant='primary' className="w-25 mt-3">Register</Button>
+        </Link>
       </div>
       <Footer />
     </div>

@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Dropdown, Row, Col } from 'react-bootstrap';
+import { Card, Dropdown, Row, Col } from 'react-bootstrap';
 import Footer from './Footer';
 import Img from './img/si3.jpg';
-import SA from "./img/SA.png";
-import SO from "./img/Scrumorg.png";
-import SAF from "./img/SAFe.png";
-import PMI from "./img/pmi.svg";
 
 function CustomDropdown({ options, label, selectedOption, setSelectedOption, onReset }) {
   const handleReset = () => {
@@ -39,30 +35,43 @@ function CustomDropdown({ options, label, selectedOption, setSelectedOption, onR
 }
 
 function Training() {
+
+  // import all logos
+  function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => {
+      images[item.replace('./', '')] = r(item);
+      return null; // Return value to satisfy map method
+    });
+    return images;
+  }
+  const images = importAll(require.context('./img/course_logo', false, /\.(png|jpe?g|svg)$/));
+
+
   // id should match the courseData.json
   const courses = [
-    { id: 1, name: 'Professional Scrum Master Training', certifyingBody: 'Scrum.org', role: 'Scrum Master' },
-    { id: 2, name: 'CSM - Certified Scrum Master', certifyingBody: 'Scrum Alliance', role: 'Scrum Master' },
-    { id: 3, name: 'CSPO - Certified Scrum Product Owner', certifyingBody: 'Scrum Alliance', role: 'Product Owner' },
-    { id: 4, name: 'CSD - Certified Scrum Developer', certifyingBody: 'Scrum Alliance', role: 'Developer' },
-    { id: 5, name: 'Certified SAFe Agilist', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 6, name: 'Certified SAFe® Scrum Master', certifyingBody: 'Scaled Agile 5.0', role: 'Scrum Master' },
-    { id: 7, name: 'Certified SAFe® Product Owner / Product Manager', certifyingBody: 'Scaled Agile 5.0', role: 'Product Owner' },
-    { id: 8, name: 'Certified SAFe® Government Practitioner', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 9, name: 'Certified SAFe® Program Consultant', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 10, name: 'Certified SAFe® Advanced Scrum Master', certifyingBody: 'Scaled Agile 5.0', role: 'Scrum Master' },
-    { id: 11, name: 'Certified SAFe® DevOps Practitioner', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 12, name: 'Certified SAFe® Architect', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 13, name: 'Certified SAFe® Practitioner', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 14, name: 'Certified SAFe® Release Train Engineer', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 15, name: 'Certified SAFe® Agile Software Engineer', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 16, name: 'Certified SAFe® Lean Portfolio Manager', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 17, name: 'Certified SAFe® Agile Product Manager', certifyingBody: 'Scaled Agile 5.0', role: '' },
-    { id: 18, name: 'Professional Scrum Product Owner', certifyingBody: 'Scrum.org', role: 'Product Owner' },
-    { id: 19, name: 'Professional Scrum Developer', certifyingBody: 'Scrum.org', role: 'Developer' },
-    { id: 20, name: 'Certified Agile Leadership (CAL1)', certifyingBody: 'Leadership', role: '' },
-    { id: 21, name: 'Project Management Professional', certifyingBody: 'PMI', role: '' },
-    { id: 22, name: 'PMI Agile Certified Practitioner', certifyingBody: 'PMI', role: '' },
+    { id: 1, name: 'Professional Scrum Master Training', certifyingBody: 'Scrum.org', role: 'Scrum Master', logo: images['cl1.png'] },
+    { id: 2, name: 'CSM - Certified Scrum Master', certifyingBody: 'Scrum Alliance', role: 'Scrum Master', logo: images['cl2.png'] },
+    { id: 3, name: 'CSPO - Certified Scrum Product Owner', certifyingBody: 'Scrum Alliance', role: 'Product Owner', logo: images['cl3.png'] },
+    { id: 4, name: 'CSD - Certified Scrum Developer', certifyingBody: 'Scrum Alliance', role: 'Developer', logo: images['cl4.png'] },
+    { id: 5, name: 'Certified SAFe Agilist', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl5.png'] },
+    { id: 6, name: 'Certified SAFe® Scrum Master', certifyingBody: 'Scaled Agile 5.0', role: 'Scrum Master', logo: images['cl6.png'] },
+    { id: 7, name: 'Certified SAFe® Product Owner / Product Manager', certifyingBody: 'Scaled Agile 5.0', role: 'Product Owner', logo: images['cl7.png'] },
+    { id: 8, name: 'Certified SAFe® Government Practitioner', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl8.png'] },
+    { id: 9, name: 'Certified SAFe® Program Consultant', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl9.png'] },
+    { id: 10, name: 'Certified SAFe® Advanced Scrum Master', certifyingBody: 'Scaled Agile 5.0', role: 'Scrum Master', logo: images['cl10.png'] },
+    { id: 11, name: 'Certified SAFe® DevOps Practitioner', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl11.png'] },
+    { id: 12, name: 'Certified SAFe® Architect', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl12.png'] },
+    { id: 13, name: 'Certified SAFe® Practitioner', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl13.png'] },
+    { id: 14, name: 'Certified SAFe® Release Train Engineer', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl14.png'] },
+    { id: 15, name: 'Certified SAFe® Agile Software Engineer', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl15.png'] },
+    { id: 16, name: 'Certified SAFe® Lean Portfolio Manager', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl16.png'] },
+    { id: 17, name: 'Certified SAFe® Agile Product Manager', certifyingBody: 'Scaled Agile 5.0', role: '', logo: images['cl17.png'] },
+    { id: 18, name: 'Professional Scrum Product Owner', certifyingBody: 'Scrum.org', role: 'Product Owner', logo: images['cl18.png'] },
+    { id: 19, name: 'Professional Scrum Developer', certifyingBody: 'Scrum.org', role: 'Developer', logo: images['cl19.png'] },
+    { id: 20, name: 'Certified Agile Leadership (CAL1)', certifyingBody: 'Leadership', role: '', logo: images['cl20.png'] },
+    { id: 21, name: 'Project Management Professional', certifyingBody: 'PMI', role: '', logo: images['cl21.png'] },
+    { id: 22, name: 'PMI Agile Certified Practitioner', certifyingBody: 'PMI', role: '', logo: images['cl22.png'] },
     { id: 23, name: 'Value Stream Workshop', certifyingBody: 'Corporate Training', role: '' },
     { id: 24, name: 'SAFe® Portfolio Management', certifyingBody: 'Corporate Training', role: '' },
     { id: 25, name: 'Program Increment Workshop', certifyingBody: 'Corporate Training', role: '' },
@@ -121,20 +130,20 @@ function Training() {
           filteredTitles.map(title => (
             <div className="text-start mx-5 my-3" key={title}>
               <div className="mb-2">
-                {title === 'Scrum.org' && <img src={SO} alt="Scrum.org" style={{ width: '15%' }} />}
-                {title === 'Scrum Alliance' && <img src={SA} alt="Scrum Alliance" style={{ width: '15%' }} />}
-                {title === 'Scaled Agile 5.0' && <img src={SAF} alt="Scaled Agile 5.0" style={{ width: '15%' }} />}
-                {title === 'Leadership' && <h4>{title}</h4>}
-                {title === 'PMI' && <img src={PMI} alt="PMI" style={{ width: '15%' }} />}
-                {title === 'Corporate Training' && <h4>{title}</h4>}
+                <h4>{title}</h4>
                 <hr />
               </div>
-              <div className="d-flex flex-wrap ms-5">
+              <div className="text-center d-flex flex-wrap ms-5">
                 {
                   filteredCourses.filter(course => course.certifyingBody === title).map(course => (
                     <div key={course.id} className='me-3 mb-2'>
-                      <Link to={`/course/${course.id}`}>
-                        <Button variant="outline-primary" >{course.name}</Button>
+                      <Link to={`/course/${course.id}`} style={{ textDecoration: 'none' }}>
+                        <Card style={{ width: '18rem', height: '21rem' }}>
+                          <Card.Img variant="top" className='my-2 mx-auto' src={course.logo} style={{ width: '90%' }}/>
+                          <Card.Body>
+                            <Card.Subtitle className="mb-2 text-muted">{course.name}</Card.Subtitle>
+                          </Card.Body>
+                        </Card>
                       </Link>
                     </div>
                   ))
