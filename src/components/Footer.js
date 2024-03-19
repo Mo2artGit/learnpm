@@ -26,6 +26,7 @@ function Footer() {
                             <li><Link to="/about" style={{ color: '#dbdcdc', textDecoration: 'none' }}>About</Link></li>
                             <li><Link to="/contact" style={{ color: '#dbdcdc', textDecoration: 'none' }}>Contact Us</Link></li>
                             <li><Link to="/contact" style={{ color: '#dbdcdc', textDecoration: 'none' }}>Become A Trainer</Link></li>
+                            <li><Link to="/term" style={{ color: '#dbdcdc', textDecoration: 'none' }}>Terms & Conditions</Link></li>
                         </ul>
                         <p className='text-white-50'>&copy; 2024 Learn PM. All rights reserved.</p>
                     </Col>
