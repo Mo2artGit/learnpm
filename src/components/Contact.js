@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import Footer from './Footer';
-import frontImage from './img/contactus_front_img.svg';
+import frontImage from './img/contactus_front_img.png';
 import backgroundImage from './img/contactus_bg_img.png';
 
 function Contact() {
