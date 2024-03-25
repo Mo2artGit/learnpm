@@ -78,7 +78,7 @@ function Home() {
       </section>
       {/*Our Services*/}
       <section className="py-4">
-        <h3 className='mb-3'>Our Services</h3>
+        <h3 className='pb-3'>Our Services</h3>
         <Container>
           <Row>
             <Col>
@@ -119,12 +119,13 @@ function Home() {
           </Row>
         </Container>
       </section>
+      <hr/>
       {/*About Us*/}
-      <section>
-        <h3 className="py-4">About Us</h3>
-        <Container>
+      <section className="py-5">
+        <h3 className="pt-5 pb-3">About Us</h3>
+        <Container className="pb-5 fs-5">
           <Row>
-            <Col xs={4}>
+            <Col xs={3}>
               <Row>
                 <Col xs={12}>
                   <Button variant="outline-secondary" className="mb-3">Who We Are</Button>
@@ -139,7 +140,7 @@ function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={8} className=' d-flex align-items-center'>
+            <Col xs={9} className=' d-flex align-items-center'>
               <p class="text-start">
                 Learn PM is a boutique Agile consultancy with decades of software development experience. We
                 grew up in the era of structured design methodologies, adapted our learning to the rapid
@@ -150,9 +151,10 @@ function Home() {
           </Row>
         </Container>
       </section>
+      <hr/>
       {/*Our Partners*/}
-      <section className="py-4">
-        <h3 className='mb-3'>Our Partners</h3>
+      <section className="py-5">
+        <h3 className='pb-3'>Our Partners</h3>
         <Container>
           <Row>
             <Col>
@@ -173,9 +175,10 @@ function Home() {
           </Row>
         </Container>
       </section >
+      <hr/>
       {/*Get Inspired*/}
-      < section className="py-4" >
-        <h3 className='mb-3'>Get Inspired</h3>
+      < section className="py-5" >
+        <h3 className='pb-3'>Get Inspired</h3>
         <Carousel indicators={false}>
           <Carousel.Item>
             <Stack
@@ -203,9 +206,10 @@ function Home() {
           </Carousel.Item>
         </Carousel>
       </section >
+      <hr/>
       {/*Sign Up*/}
-      < section className="py-4" >
-        <h3 className='mb-3'>Stay Connected With Us...</h3>
+      < section className="py-5" >
+        <h3 className='pb-3'>Stay Connected With Us...</h3>
         <p>Receive information on upcoming workshops and insights.</p>
         <Container>
           <Row>
