@@ -5,16 +5,19 @@ const ScrollController = () => {
   // Extracts pathname property(key) from an object
   const { pathname } = useLocation();
 
-  const shouldScrollToBottom = pathname === '/corporate';
+  const scrollToSection = pathname === '/corporate';
 
   // Automatically scrolls to top whenever pathname changes
   useEffect(() => {
-    if (shouldScrollToBottom) {
-      window.scrollTo(0, document.body.scrollHeight);
+    if (scrollToSection) {
+      const section = document.getElementById('Corporate Training');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
     } else {
       window.scrollTo(0, 0);
     }
-  }, [pathname, shouldScrollToBottom]);
+  }, [pathname, scrollToSection]);
 }
 
 export default ScrollController;

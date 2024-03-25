@@ -128,7 +128,7 @@ function Training() {
         {/* Display filtered courses */}
         {
           filteredTitles.map(title => (
-            <div className="text-start mx-5 my-3" key={title}>
+            <div className="text-start mx-5 my-3" key={title} id={title}>
               <div className="mb-2">
                 <h4>{title}</h4>
                 <hr />
