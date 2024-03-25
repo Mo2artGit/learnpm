@@ -60,7 +60,7 @@ function Courses() {
             </Col>
           </Row>
         </Container>
-        <Container className='text-start'>
+        <Container className='text-start mt-3'>
           <Row>
             <Col xs={8}>
               <h5>About This Course</h5>
