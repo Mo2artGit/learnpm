@@ -1,12 +1,11 @@
 import React from 'react';
-import { Image, Form, Stack, Row, Col, Card, Carousel, Container, Button } from 'react-bootstrap';
+import { Image, Form, Row, Col, Card, Carousel, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import Si1 from './img/si1.jpg';
 import Si2 from './img/si2.jpg';
 import Si3 from './img/si3.jpg';
 import Si4 from './img/si4.jpg';
-import img from './img/img.jpg';
 import AssessmentImg from './img/assessment.jpg';
 import TrainingImg from './img/training.jpg';
 import CoachingImg from './img/coaching.jpg';
@@ -19,15 +18,73 @@ function Home() {
     width: '100%',
     height: 'auto',
   };
-  const imageStyle = {
-    width: '100%',
-    height: '20vh',
-  };
+
   const buttonstyle = {
     position: 'absolute',
     bottom: "15%",
     right: "15%", zIndex: 1
   };
+
+  const reviews = [
+    {
+      id: 1,
+      avatar: 'https://i.pravatar.cc/400?img=61',
+      name: 'John Doe',
+      review: 'Valuable, well-instructed course to help pass the PMP the first time! Raj was engaging and did a great job leading the course. The materials provided really helped me get into the mindset to take the PMP.',
+    },
+    {
+      id: 2,
+      avatar: 'https://i.pravatar.cc/400?img=43',
+      name: 'Jane Smith',
+      review: 'The course was engaging and covered all of the pertinent material required to easily pass the PMP certification test. Raj was a great instructor and very engaged with the course and participants both during and after the course.',
+    },
+    {
+      id: 3,
+      avatar: 'https://i.pravatar.cc/400?img=52',
+      name: 'Bob Johnson',
+      review: 'The sessions were easy to schedule, and you get a ton of value out of the course materials. The instructors really go out of their way to make sure you understand the content, and manage to offer real world examples for why one answer is more correct than the others.',
+    },
+    {
+      id: 4,
+      avatar: 'https://i.pravatar.cc/400?img=11',
+      name: 'Logan Jonathan',
+      review: 'The 4 day boot camp was excellent and very informative. I felt very prepared after performing the practice exams especially in learning mode to get instant feedback. I passed the exam above target and in only 3 hours due to the prep I received. Highly recommend and 5 stars.',
+    },
+    {
+      id: 5,
+      avatar: 'https://i.pravatar.cc/400?img=5',
+      name: 'Otania Baker',
+      review: 'Great course. Fast-paced, challenging, but yet rewarding once you realize you have all the available PMTI tools at your disposal. Raj Senapathy is an incredible instructor that brings forth his tacit and explicit knowledge to the course. The tools and knowledge transfer from Raj allowed me to pass this exam on the first attempt! Hats off to the PMTI team!',
+    },
+    {
+      id: 6,
+      avatar: 'https://i.pravatar.cc/400?img=8',
+      name: 'Alan Fakename',
+      review: 'The materials provided for after-class prep were top-notch. I could not have passed without all of the testing materials and support through PMI. Raj was an amazing instructor and I also took advantage of the bi-weekly PMP Exam Review Session.',
+    },
+    {
+      id: 7,
+      avatar: 'https://i.pravatar.cc/400?img=7',
+      name: 'Joe Iceman',
+      review: 'I took PMTI in person boot camp workshop and utilized their associated online materials that come with the course. The instructor was fantastic. Very fun, patient and super knowledgeable. Best part was excellent practice question sets and mock exams that had questions true to the pmi exam. Almost identical in some cases.',
+    },
+    {
+      id: 8,
+      avatar: 'https://i.pravatar.cc/400?img=4',
+      name: 'Rob Queue',
+      review: 'PMTI provided a professional course the prepared me to take the PMP certification exam. This preparation was only enhanced by the number of tools provided by PMTI to quell any doubts I had. Would recommend to anyone.',
+    },
+  ];
+
+  const chunkReviews = (array, size) => {
+    const chunkedArray = [];
+    for (let i = 0; i < array.length; i += size) {
+      chunkedArray.push(array.slice(i, i + size));
+    }
+    return chunkedArray;
+  };
+
+  const reviewChunks = chunkReviews(reviews, 4);
 
   return (
     <div>
@@ -77,8 +134,8 @@ function Home() {
         </Carousel>
       </section>
       {/*Our Services*/}
-      <section className="py-4">
-        <h3 className='mb-3'>Our Services</h3>
+      <section className="py-5">
+        <h2 className='pb-3 fst-italic'>Our Services</h2>
         <Container>
           <Row>
             <Col>
@@ -119,12 +176,13 @@ function Home() {
           </Row>
         </Container>
       </section>
+      <hr />
       {/*About Us*/}
-      <section>
-        <h3 className="py-4">About Us</h3>
-        <Container>
+      <section className="py-5">
+        <h2 className="pt-5 pb-3 fst-italic">About Us</h2>
+        <Container className="pb-5 fs-5">
           <Row>
-            <Col xs={4}>
+            <Col xs={3}>
               <Row>
                 <Col xs={12}>
                   <Button variant="outline-secondary" className="mb-3">Who We Are</Button>
@@ -139,7 +197,7 @@ function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col xs={8} className=' d-flex align-items-center'>
+            <Col xs={9} className=' d-flex align-items-center'>
               <p class="text-start">
                 Learn PM is a boutique Agile consultancy with decades of software development experience. We
                 grew up in the era of structured design methodologies, adapted our learning to the rapid
@@ -150,9 +208,10 @@ function Home() {
           </Row>
         </Container>
       </section>
+      <hr />
       {/*Our Partners*/}
-      <section className="py-4">
-        <h3 className='mb-3'>Our Partners</h3>
+      <section className="py-5">
+        <h2 className='pb-3 fst-italic'>Our Partners</h2>
         <Container>
           <Row>
             <Col>
@@ -173,39 +232,36 @@ function Home() {
           </Row>
         </Container>
       </section >
+      <hr />
       {/*Get Inspired*/}
-      < section className="py-4" >
-        <h3 className='mb-3'>Get Inspired</h3>
-        <Carousel indicators={false}>
-          <Carousel.Item>
-            <Stack
-              direction="horizontal"
-              className="h-100 justify-content-center align-items-center"
-              gap={3}
-            >
-              <img src={img} className="d-block w-100" alt="First slide" style={imageStyle} />
-              <img src={img} className="d-block w-100" alt="Second slide" style={imageStyle} />
-              <img src={img} className="d-block w-100" alt="Third slide" style={imageStyle} />
-              <img src={img} className="d-block w-100" alt="Second slide" style={imageStyle} />
-            </Stack>
-          </Carousel.Item>
-          <Carousel.Item>
-            <Stack
-              direction="horizontal"
-              className="h-100 justify-content-center align-items-center"
-              gap={3}
-            >
-              <img src={img} className="d-block w-100" alt="First slide" style={imageStyle} />
-              <img src={img} className="d-block w-100" alt="Second slide" style={imageStyle} />
-              <img src={img} className="d-block w-100" alt="Third slide" style={imageStyle} />
-              <img src={img} className="d-block w-100" alt="First slide" style={imageStyle} />
-            </Stack>
-          </Carousel.Item>
+      <section className="py-5">
+        <h2 className='pb-3 fst-italic'>Get Inspired</h2>
+        <Carousel indicators={false} className='mx-5' style={{height: '18rem'}}>
+          {reviewChunks.map((chunk, index) => (
+            <Carousel.Item key={index}>
+              <div className="d-flex justify-content-around">
+                {chunk.map((review) => (
+                  <div key={review.id} className="text-center mx-2">
+                    <img
+                      className="rounded-circle mb-2"
+                      src={review.avatar}
+                      alt={review.name}
+                      width="64"
+                      height="64"
+                    />
+                    <h6>{review.name}</h6>
+                    <p>{review.review}</p>
+                  </div>
+                ))}
+              </div>
+            </Carousel.Item>
+          ))}
         </Carousel>
       </section >
+      <hr />
       {/*Sign Up*/}
-      < section className="py-4" >
-        <h3 className='mb-3'>Stay Connected With Us...</h3>
+      < section className="py-5" >
+        <h3 className='pb-3 fst-italic'>Stay Connected With Us...</h3>
         <p>Receive information on upcoming workshops and insights.</p>
         <Container>
           <Row>
@@ -229,7 +285,7 @@ function Home() {
           </Row>
           <Row className='mt-2'>
             <Col xs={12}>
-              <Button variant="secondary" type="submit">
+              <Button variant="secondary" className="w-25" type="submit">
                 Sign Up
               </Button>
             </Col>

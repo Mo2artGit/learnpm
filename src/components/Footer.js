@@ -22,7 +22,7 @@ function Footer() {
                     </Col>
                     <Col>
                         <h5>Related Links</h5>
-                        <ul className="list-unstyled">
+                        <ul className="list-unstyled fw-light">
                             <li><Link to="/about" style={{ color: '#dbdcdc', textDecoration: 'none' }}>About</Link></li>
                             <li><Link to="/contact" style={{ color: '#dbdcdc', textDecoration: 'none' }}>Contact Us</Link></li>
                             <li><Link to="/contact" style={{ color: '#dbdcdc', textDecoration: 'none' }}>Become A Trainer</Link></li>
