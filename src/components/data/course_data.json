@@ -352,7 +352,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, withsuccessful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "23": {
-        "logo": "./img/course_logo/cl23.png",
+        "logo": "./img/course_logo/cl23.jpeg",
         "title": "Value Stream Workshop",
         "duration": "2 days",
         "cost": "$1000",
@@ -368,7 +368,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "24": {
-        "logo": "./img/course_logo/cl24.png",
+        "logo": "./img/course_logo/cl24.jpeg",
         "title": "SAFe® Portfolio Management",
         "duration": "2 days",
         "about": "A foundational Lean-Agile and Portfolio operations course for SAFe portfolio managers.",
@@ -384,7 +384,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "25": {
-        "logo": "./img/course_logo/cl25.png",
+        "logo": "./img/course_logo/cl25.jpeg",
         "title": "Program Increment Workshop",
         "duration": "3 days",
         "cost": "$1500",
@@ -400,7 +400,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "26": {
-        "logo": "./img/course_logo/cl26.png",
+        "logo": "./img/course_logo/cl26.jpeg",
         "title": "Inspect & Adapt (customized offering)",
         "duration": "3 days",
         "cost": "$1500",
@@ -416,7 +416,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University"
     },
     "27": {
-        "logo": "./img/course_logo/cl27.png",
+        "logo": "./img/course_logo/cl27.jpeg",
         "title": "Product Management Workshop (customized offering)",
         "duration": "3 days",
         "cost": "$1500",
@@ -432,7 +432,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software management and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "28": {
-        "logo": "./img/course_logo/cl28.png",
+        "logo": "./img/course_logo/cl28.jpeg",
         "title": "Team Building Workshop",
         "duration": "1 day",
         "cost": "$500",
@@ -448,7 +448,7 @@
         "instructor": "Instructor 1: Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University."
     },
     "29": {
-        "logo": "./img/course_logo/cl29.png",
+        "logo": "./img/course_logo/cl29.jpeg",
         "title": "Customized Scrum/Kanban Workshop",
         "duration": "1 day",
         "cost": "$500",

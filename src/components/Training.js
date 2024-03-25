@@ -72,13 +72,13 @@ function Training() {
     { id: 20, name: 'Certified Agile Leadership (CAL1)', certifyingBody: 'Leadership', role: '', logo: images['cl20.png'] },
     { id: 21, name: 'Project Management Professional', certifyingBody: 'PMI', role: '', logo: images['cl21.png'] },
     { id: 22, name: 'PMI Agile Certified Practitioner', certifyingBody: 'PMI', role: '', logo: images['cl22.png'] },
-    { id: 23, name: 'Value Stream Workshop', certifyingBody: 'Corporate Training', role: '' },
-    { id: 24, name: 'SAFe® Portfolio Management', certifyingBody: 'Corporate Training', role: '' },
-    { id: 25, name: 'Program Increment Workshop', certifyingBody: 'Corporate Training', role: '' },
-    { id: 26, name: 'Inspect & Adapt', certifyingBody: 'Corporate Training', role: '' },
-    { id: 27, name: 'Product Management Workshop', certifyingBody: 'Corporate Training', role: '' },
-    { id: 28, name: 'Team Building', certifyingBody: 'Corporate Training', role: '' },
-    { id: 29, name: 'Customized Scrum/Kanban Workshop', certifyingBody: 'Corporate Training', role: '' },
+    { id: 23, name: 'Value Stream Workshop', certifyingBody: 'Corporate Training', role: '', logo: images['cl23.jpeg'] },
+    { id: 24, name: 'SAFe® Portfolio Management', certifyingBody: 'Corporate Training', role: '', logo: images['cl24.jpeg'] },
+    { id: 25, name: 'Program Increment Workshop', certifyingBody: 'Corporate Training', role: '', logo: images['cl25.jpeg'] },
+    { id: 26, name: 'Inspect & Adapt', certifyingBody: 'Corporate Training', role: '', logo: images['cl26.jpeg'] },
+    { id: 27, name: 'Product Management Workshop', certifyingBody: 'Corporate Training', role: '', logo: images['cl27.jpeg'] },
+    { id: 28, name: 'Team Building', certifyingBody: 'Corporate Training', role: '', logo: images['cl28.jpeg'] },
+    { id: 29, name: 'Customized Scrum/Kanban Workshop', certifyingBody: 'Corporate Training', role: '', logo: images['cl29.jpeg'] },
   ];
 
   // State for dropdown selections
