@@ -20,7 +20,9 @@ function App() {
     <Router basename="/learnpm">
       <div className="App">
         <ScrollController />
-        <Navigator />
+        <header style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000 }}>
+          <Navigator />
+        </header>
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/assessment" element={<Assessment />} />
