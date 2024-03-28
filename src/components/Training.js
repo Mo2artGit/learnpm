@@ -139,7 +139,9 @@ function Training() {
                     <div key={course.id} className='me-3 mb-2'>
                       <Link to={`/course/${course.id}`} style={{ textDecoration: 'none' }}>
                         <Card style={{ width: '18rem', height: '21rem' }}>
-                          <Card.Img variant="top" className='my-2 mx-auto' src={course.logo} style={{ width: '90%' }}/>
+                          <div style={{ height: '21rem' }}>
+                            <Card.Img variant="top" className='my-2 mx-auto' src={course.logo} style={{ width: '90%' }} />
+                          </div>
                           <Card.Body>
                             <Card.Subtitle className="mb-2 text-muted">{course.name}</Card.Subtitle>
                           </Card.Body>
