@@ -2,7 +2,6 @@ import React from 'react';
 import Img from './img/si2.jpg';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
 
 function Assessment() {
   return (
@@ -125,7 +124,6 @@ function Assessment() {
           </Link>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

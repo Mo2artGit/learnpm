@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigator from './components/Navigator';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Assessment from './components/Assessment';
 import Training from './components/Training';
@@ -21,7 +22,7 @@ function App() {
         <ScrollController />
         <Navigator />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />}/>
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/training" element={<Training />} />
           <Route path="/corporate" element={<Training />} />
@@ -33,6 +34,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/term" element={<Term />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

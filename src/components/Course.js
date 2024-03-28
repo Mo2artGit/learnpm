@@ -6,7 +6,6 @@ import reviewImage1 from './img/review1.png';
 import reviewImage2 from './img/review2.png';
 import reviewImage3 from './img/review3.png';
 import reviewImage4 from './img/review4.png';
-import Footer from './Footer';
 
 function Courses() {
 
@@ -104,7 +103,6 @@ function Courses() {
           <Button variant='primary' className="w-25 mt-3">Register</Button>
         </Link>
       </div>
-      <Footer />
     </div>
   );
 }
