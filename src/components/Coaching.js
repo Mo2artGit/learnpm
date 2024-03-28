@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import frontImage from './img/Coaching_Img.png';
 
 // Define CSS as JavaScript objects
@@ -71,10 +72,6 @@ const ToolsAssessmentsText = () => (
 );
 
 const Page = () => {
-  // Function to handle redirection to the contact us page
-  const redirectToContactUs = () => {
-    window.location.href = '/learnpm/contact';
-  };
 
   return (
     <>
@@ -110,7 +107,9 @@ const Page = () => {
         </Row>
         <Row>
           <Col>
-            <Button style={styles.button} onClick={redirectToContactUs}>Contact Us</Button>
+            <Link to="/contact">
+              <Button style={styles.button}>Contact Us</Button>
+            </Link>
           </Col>
         </Row>
       </Container>
