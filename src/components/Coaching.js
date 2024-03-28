@@ -22,6 +22,9 @@ const styles = {
     textAlign: 'left',
     marginBottom: '1em',
   },
+  bulletPointWithMargin: {
+    marginLeft: '30px',
+  },
   button: {
     width: '154px',
     height: '48px',
@@ -38,32 +41,32 @@ const styles = {
 
 const AgileTransformationsText = () => (
   <div>
-    <div>• Shifting from traditional project management methodologies to Agile methodologies like Scrum or Kanban.</div>
-    <div>• Implementing cross-functional teams with members from different departments or disciplines.</div>
-    <div>• Embracing iterative and incremental development to deliver value in smaller, frequent increments.</div>
-    <div>• Encouraging close collaboration between business stakeholders, product owners, and development teams.</div>
-    <div>• Adopting a flexible mindset that values responding to change over strict adherence to initial plans.</div>
-    <div>• Implementing daily stand-up meetings for improved communication, transparency, and alignment.</div>
+    <div style={styles.bulletPointWithMargin}>• Shifting from traditional project management methodologies to Agile methodologies like Scrum or Kanban.</div>
+    <div style={styles.bulletPointWithMargin}>• Implementing cross-functional teams with members from different departments or disciplines.</div>
+    <div style={styles.bulletPointWithMargin}>• Embracing iterative and incremental development to deliver value in smaller, frequent increments.</div>
+    <div style={styles.bulletPointWithMargin}>• Encouraging close collaboration between business stakeholders, product owners, and development teams.</div>
+    <div style={styles.bulletPointWithMargin}>• Adopting a flexible mindset that values responding to change over strict adherence to initial plans.</div>
+    <div style={styles.bulletPointWithMargin}>• Implementing daily stand-up meetings for improved communication, transparency, and alignment.</div>
   </div>
 );
 
 const DevopsTransformationsText = () => (
   <div>
-    <div>• Implementing continuous integration and continuous delivery (CI/CD) pipelines to automate the software release process.</div>
-    <div>• Breaking down silos between development and operations teams and promoting collaboration and shared responsibilities.</div>
-    <div>• Adopting infrastructure as code (IaC) to automate the provisioning and management of infrastructure resources.</div>
-    <div>• Implementing monitoring and logging solutions to gain real-time visibility into application performance and system health releases.</div>
+    <div style={styles.bulletPointWithMargin}>• Implementing continuous integration and continuous delivery (CI/CD) pipelines to automate the software release process.</div>
+    <div style={styles.bulletPointWithMargin}>• Breaking down silos between development and operations teams and promoting collaboration and shared responsibilities.</div>
+    <div style={styles.bulletPointWithMargin}>• Adopting infrastructure as code (IaC) to automate the provisioning and management of infrastructure resources.</div>
+    <div style={styles.bulletPointWithMargin}>• Implementing monitoring and logging solutions to gain real-time visibility into application performance and system health releases.</div>
   </div>
 );
 
 const ToolsAssessmentsText = () => (
   <div>
     <div>1. Version Control Systems:</div>
-    <div>• Assessment: Evaluate tools like Git, Subversion, or Mercurial based on ease of use, collaboration features, branching capabilities, and integration with CI/CD pipelines.</div>
-    <div>• Implementation: Integrate the chosen tool into the development workflow, establish coding guidelines, and ensure all code changes are version controlled.</div>
+    <div style={styles.bulletPointWithMargin}>• Assessment: Evaluate tools like Git, Subversion, or Mercurial based on ease of use, collaboration features, branching capabilities, and integration with CI/CD pipelines.</div>
+    <div style={styles.bulletPointWithMargin}>• Implementation: Integrate the chosen tool into the development workflow, establish coding guidelines, and ensure all code changes are version controlled.</div>
     <div>2. Continuous Integration/Continuous Delivery (CI/CD) Tools:</div>
-    <div>• Assessment: Assess tools like Jenkins, CircleCI, or GitLab CI/CD based on their ability to automate build, test, and deployment processes, scalability, integrations, and support.</div>
-    <div>• Implementation: Configure the CI/CD pipeline to trigger automated builds, run tests, and deploy applications, while ensuring proper monitoring and feedback mechanisms.</div>
+    <div style={styles.bulletPointWithMargin}>• Assessment: Assess tools like Jenkins, CircleCI, or GitLab CI/CD based on their ability to automate build, test, and deployment processes, scalability, integrations, and support.</div>
+    <div style={styles.bulletPointWithMargin}>• Implementation: Configure the CI/CD pipeline to trigger automated builds, run tests, and deploy applications, while ensuring proper monitoring and feedback mechanisms.</div>
   </div>
 );
 
