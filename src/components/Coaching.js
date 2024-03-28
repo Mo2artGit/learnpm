@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import Footer from './Footer';
 import frontImage from './img/Coaching_Img.png';
 
 // Define CSS as JavaScript objects
@@ -112,7 +111,6 @@ const Page = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 };

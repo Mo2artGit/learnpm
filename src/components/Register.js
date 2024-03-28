@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Form, Col, Row, Container } from 'react-bootstrap';
-import Footer from './Footer';
 import register from './img/register.svg';
 //import registerBg from './img/register_bg.png';
 
@@ -123,7 +122,6 @@ function Register() {
           </Col>
         </Row>
       </div>
-      <Footer />
     </div>
   );
 }

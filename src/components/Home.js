@@ -1,7 +1,6 @@
 import React from 'react';
 import { Image, Form, Row, Col, Card, Carousel, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
 import Si1 from './img/si1.jpg';
 import Si2 from './img/si2.jpg';
 import Si3 from './img/si3.jpg';
@@ -292,7 +291,6 @@ function Home() {
           </Row>
         </Container>
       </section >
-      <Footer />
     </div >
   );
 }

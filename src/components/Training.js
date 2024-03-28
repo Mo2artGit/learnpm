@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Dropdown, Row, Col } from 'react-bootstrap';
-import Footer from './Footer';
 import Img from './img/si3.jpg';
 
 function CustomDropdown({ options, label, selectedOption, setSelectedOption, onReset }) {
@@ -155,7 +154,6 @@ function Training() {
           ))
         }
       </div >
-      <Footer />
     </div>
   );
 }
