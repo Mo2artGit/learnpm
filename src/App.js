@@ -20,11 +20,13 @@ function App() {
     <Router basename="/learnpm">
       <div className="App">
         <ScrollController />
-        <header style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000 }}>
-          <Navigator />
+        <header>
+          <div className="navigator-container">
+            <Navigator />
+          </div>
         </header>
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route path="/" element={<Home />} />
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/training" element={<Training />} />
           <Route path="/corporate" element={<Training />} />
