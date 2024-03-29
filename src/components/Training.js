@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Dropdown, Row, Col } from 'react-bootstrap';
+import { Card, Dropdown } from 'react-bootstrap';
 import Img from './img/si3.jpg';
 
 function CustomDropdown({ options, label, selectedOption, setSelectedOption, onReset }) {
@@ -103,27 +103,22 @@ function Training() {
         <div style={{ height: '20vh', overflow: 'hidden' }} className='mb-2'>
           <img src={Img} alt="Cropped Img" style={{ width: '100%', objectFit: 'cover' }} />
         </div>
-        <Row className="justify-content-start w-100">
-          <Col>
-            <CustomDropdown
-              label="Certifying Body"
-              options={certifyingBodies}
-              selectedOption={certifyingBody}
-              setSelectedOption={setCertifyingBody}
-              onReset={() => setCertifyingBody('')}
-            />
-          </Col>
-          <Col>
-            <CustomDropdown
-              label="Role"
-              options={roles}
-              selectedOption={role}
-              setSelectedOption={setRole}
-              onReset={() => setRole('')}
-            />
-          </Col>
-        </Row>
-
+        <div className="ms-5" style={{ display: 'flex', gap:"20px" }}>
+          <CustomDropdown
+            label="Certifying Body"
+            options={certifyingBodies}
+            selectedOption={certifyingBody}
+            setSelectedOption={setCertifyingBody}
+            onReset={() => setCertifyingBody('')}
+          />
+          <CustomDropdown
+            label="Role"
+            options={roles}
+            selectedOption={role}
+            setSelectedOption={setRole}
+            onReset={() => setRole('')}
+          />
+        </div>
         {/* Display filtered courses */}
         {
           filteredTitles.map(title => (
