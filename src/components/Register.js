@@ -1,9 +1,19 @@
-import React from 'react';
-import { Button, Form, Col, Row, Container } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Button, Form, Col, Row, Container, Modal } from 'react-bootstrap';
 import register from './img/register.svg';
 //import registerBg from './img/register_bg.png';
 
 function Register() {
+
+  const [showModal, setShowModal] = useState(false);
+
+  const handleCloseModal = () => setShowModal(false);
+  const handleShowModal = () => setShowModal(true);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    handleShowModal();
+  };
 
   var divStyle = {
     minHeight: '75vh',
@@ -111,17 +121,29 @@ function Register() {
                     </Button>
                   </Col>
                   <Col>
-                    <Button variant="secondary" className="w-100" type="submit">
+                    <Button variant="secondary" className="w-100" type="submit" onClick={handleSubmit}>
                       Register
                     </Button>
                   </Col>
                 </Row>
-
               </Form>
             </Container>
           </Col>
         </Row>
       </div>
+      <Modal show={showModal} onHide={handleCloseModal}>
+        <Modal.Header closeButton>
+          <Modal.Title>Register Form</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>Registered!</p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleCloseModal}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button, Container, Row, Col } from 'react-bootstrap';
+import { Form, Button, Modal, Container, Row, Col } from 'react-bootstrap';
 import frontImage from './img/contactus_front_img.png';
 import backgroundImage from './img/contactus_bg_img.png';
 
@@ -9,13 +9,25 @@ function Contact() {
     const [phone, setPhone] = useState('');
     const [issue, setIssue] = useState('');
 
+    const [showModal, setShowModal] = useState(false);
+
+    const handleCloseModal = () => setShowModal(false);
+    const handleShowModal = () => setShowModal(true);
+
+    const handleReset = () => {
+        setName('');
+        setEmail('');
+        setPhone('');
+        setIssue('');
+    };
+
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log('Name:', name);
         console.log('Email:', email);
         console.log('Phone:', phone);
         console.log('Issue:', issue);
-        alert('Thank you for contacting us!');
+        handleShowModal();
         setName('');
         setEmail('');
         setPhone('');
@@ -116,7 +128,7 @@ function Contact() {
                                 </Form.Group>
                                 <div style={{ marginBottom: '3px' }} />
                                 <Form.Group>
-                                    <Form.Label style={labelStyle}>Issue:</Form.Label>
+                                    <Form.Label style={labelStyle}>Message:</Form.Label>
                                     <Form.Control
                                         as="textarea"
                                         rows={3}
@@ -126,10 +138,10 @@ function Contact() {
                                     />
                                 </Form.Group>
                                 <div style={{ marginBottom: '20px' }} />
-                                <Button className="me-2" variant="secondary" type="reset">
+                                <Button className="me-2" variant="secondary" type="reset" onClick={handleReset}>
                                     Reset
                                 </Button>
-                                <Button variant="primary" type="submit" className="text-center">
+                                <Button variant="primary" type="submit" className="text-center" onClick={handleSubmit}>
                                     Send
                                 </Button>
                             </Form>
@@ -137,6 +149,19 @@ function Contact() {
                     </Row>
                 </Container>
             </div>
+            <Modal show={showModal} onHide={handleCloseModal}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Contact Form</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <p>Thank you for contacting us!</p>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleCloseModal}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
         </>
     );
 }
