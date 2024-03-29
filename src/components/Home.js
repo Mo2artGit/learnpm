@@ -1,5 +1,5 @@
-import React from 'react';
-import { Image, Form, Row, Col, Card, Carousel, Container, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Image, Form, Row, Col, Card, Carousel, Container, Button, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Si1 from './img/si1.jpg';
 import Si2 from './img/si2.jpg';
@@ -84,6 +84,16 @@ function Home() {
   };
 
   const reviewChunks = chunkReviews(reviews, 4);
+
+  const [showModal, setShowModal] = useState(false);
+
+  const handleCloseModal = () => setShowModal(false);
+  const handleShowModal = () => setShowModal(true);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    handleShowModal();
+  };
 
   return (
     <div>
@@ -235,7 +245,7 @@ function Home() {
       {/*Get Inspired*/}
       <section className="py-5">
         <h2 className='pb-3 fst-italic'>Get Inspired</h2>
-        <Carousel indicators={false} className='mx-5' style={{height: '18rem'}}>
+        <Carousel indicators={false} className='mx-5' style={{ height: '18rem' }}>
           {reviewChunks.map((chunk, index) => (
             <Carousel.Item key={index}>
               <div className="d-flex justify-content-around">
@@ -284,13 +294,26 @@ function Home() {
           </Row>
           <Row className='mt-2'>
             <Col xs={12}>
-              <Button variant="secondary" className="w-25" type="submit">
+              <Button variant="secondary" className="w-25" type="submit" onClick={handleSubmit}>
                 Sign Up
               </Button>
             </Col>
           </Row>
         </Container>
       </section >
+      <Modal show={showModal} onHide={handleCloseModal}>
+        <Modal.Header closeButton>
+          <Modal.Title>Sign Up Form</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>You have been signed up!</p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleCloseModal}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div >
   );
 }
