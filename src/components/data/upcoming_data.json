@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Professional Scrum Master Training",
+        "type": "Scrum Master",
+        "date": "2024-05-01",
+        "location": "New York",
+        "instructor": "Raj Heda",
+        "logo": "./img/course_logo/cl1.png"
+    },
+    {
+        "id": 2,
+        "name": "Certified Scrum Product Owner",
+        "type": "Product Owner",
+        "date": "2024-06-15",
+        "location": "San Francisco",
+        "instructor": "Raj Heda",
+        "logo": "./img/course_logo/cl3.png"
+    },
+    {
+        "id": 3,
+        "name": "Certified Scrum Developer",
+        "type": "Developer",
+        "date": "2024-07-01",
+        "location": "Boston",
+        "instructor": "Raj Heda",
+        "logo": "./img/course_logo/cl4.png"
+    },
+    {
+        "id": 4,
+        "name": "Professional Scrum Master Training",
+        "type": "Scrum Master",
+        "date": "2024-08-01",
+        "location": "New York",
+        "instructor": "Raj Heda",
+        "logo": "./img/course_logo/cl1.png"
+    },
+    {
+        "id": 5,
+        "name": "Professional Scrum Master Training",
+        "type": "Scrum Master",
+        "date": "2024-09-01",
+        "location": "New York",
+        "instructor": "John Doe",
+        "logo": "./img/course_logo/cl1.png"
+    },
+    {
+        "id": 6,
+        "name": "Professional Scrum Master Training",
+        "type": "Scrum Master",
+        "date": "2024-10-01",
+        "location": "New York",
+        "instructor": "Raj Heda",
+        "logo": "./img/course_logo/cl1.png"
+    }
+]
