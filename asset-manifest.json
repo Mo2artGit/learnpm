@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/learnpm/static/css/main.e833db1f.css",
-    "main.js": "/learnpm/static/js/main.4431f8ce.js",
-    "static/js/792.ce091f8d.chunk.js": "/learnpm/static/js/792.ce091f8d.chunk.js",
-    "static/js/510.85130014.chunk.js": "/learnpm/static/js/510.85130014.chunk.js",
-    "static/js/980.7061716d.chunk.js": "/learnpm/static/js/980.7061716d.chunk.js",
-    "static/js/929.599617ba.chunk.js": "/learnpm/static/js/929.599617ba.chunk.js",
-    "static/js/865.532bc021.chunk.js": "/learnpm/static/js/865.532bc021.chunk.js",
-    "static/js/528.bf17e764.chunk.js": "/learnpm/static/js/528.bf17e764.chunk.js",
-    "static/js/146.26e2fc56.chunk.js": "/learnpm/static/js/146.26e2fc56.chunk.js",
-    "static/js/787.0f3e5b98.chunk.js": "/learnpm/static/js/787.0f3e5b98.chunk.js",
+    "main.css": "/learnpm/static/css/main.d8c54ad2.css",
+    "main.js": "/learnpm/static/js/main.a5d3c0cf.js",
+    "static/js/608.886bba40.chunk.js": "/learnpm/static/js/608.886bba40.chunk.js",
+    "static/js/89.a6de87b6.chunk.js": "/learnpm/static/js/89.a6de87b6.chunk.js",
+    "static/js/689.39f58bf4.chunk.js": "/learnpm/static/js/689.39f58bf4.chunk.js",
+    "static/js/450.9f616ed5.chunk.js": "/learnpm/static/js/450.9f616ed5.chunk.js",
+    "static/js/959.58a47ad6.chunk.js": "/learnpm/static/js/959.58a47ad6.chunk.js",
+    "static/js/120.94e9f94c.chunk.js": "/learnpm/static/js/120.94e9f94c.chunk.js",
+    "static/js/706.44405805.chunk.js": "/learnpm/static/js/706.44405805.chunk.js",
+    "static/js/453.e4bc6ea5.chunk.js": "/learnpm/static/js/453.e4bc6ea5.chunk.js",
     "static/media/si1.jpg": "/learnpm/static/media/si1.f377aafca3fcfa2dcc53.jpg",
     "static/media/si4.jpg": "/learnpm/static/media/si4.8fd4b928245cec542f21.jpg",
     "static/media/coaching.jpg": "/learnpm/static/media/coaching.31573678dd3aa4fbbbe8.jpg",
@@ -56,12 +56,12 @@
     "static/media/review3.png": "/learnpm/static/media/review3.a71bff4b4739bbedcf61.png",
     "static/media/cl28.jpeg": "/learnpm/static/media/cl28.9f229f849fd95aae5197.jpeg",
     "index.html": "/learnpm/index.html",
-    "main.e833db1f.css.map": "/learnpm/static/css/main.e833db1f.css.map",
-    "main.4431f8ce.js.map": "/learnpm/static/js/main.4431f8ce.js.map",
-    "787.0f3e5b98.chunk.js.map": "/learnpm/static/js/787.0f3e5b98.chunk.js.map"
+    "main.d8c54ad2.css.map": "/learnpm/static/css/main.d8c54ad2.css.map",
+    "main.a5d3c0cf.js.map": "/learnpm/static/js/main.a5d3c0cf.js.map",
+    "453.e4bc6ea5.chunk.js.map": "/learnpm/static/js/453.e4bc6ea5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e833db1f.css",
-    "static/js/main.4431f8ce.js"
+    "static/css/main.d8c54ad2.css",
+    "static/js/main.a5d3c0cf.js"
   ]
 }
