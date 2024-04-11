@@ -8,6 +8,8 @@ function Contact() {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [issue, setIssue] = useState('');
+    const [nameValid, setNameValid] = useState(true);
+    const [emailValid, setEmailValid] = useState(true);
 
     const [showModal, setShowModal] = useState(false);
 
@@ -21,18 +23,29 @@ function Contact() {
         setIssue('');
     };
 
+    const validateEmail = (email) => {
+        const re = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/;
+        return re.test(String(email).toLowerCase());
+    };
+
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log('Name:', name);
-        console.log('Email:', email);
-        console.log('Phone:', phone);
-        console.log('Issue:', issue);
-        handleShowModal();
-        setName('');
-        setEmail('');
-        setPhone('');
-        setIssue('');
+        const isNameValid = name.trim() !== '';
+        const isEmailValid = validateEmail(email);
+
+        setNameValid(isNameValid);
+        setEmailValid(isEmailValid);
+
+        if (isNameValid && isEmailValid) {
+            console.log('Name:', name);
+            console.log('Email:', email);
+            console.log('Phone:', phone);
+            console.log('Issue:', issue);
+            handleShowModal();
+            handleReset();
+        }
     };
+
 
     const pageStyle = {
         position: 'relative',
@@ -41,7 +54,7 @@ function Contact() {
         flexDirection: 'column',
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
         overflow: 'hidden',
-        zIndex: 0, // Ensure this is 0 or greater
+        zIndex: 0,
     };
 
     const backgroundStyle = {
@@ -104,7 +117,11 @@ function Contact() {
                                         placeholder="Enter your name"
                                         value={name}
                                         onChange={(e) => setName(e.target.value)}
+                                        isInvalid={!nameValid}
                                     />
+                                    <Form.Control.Feedback type="invalid">
+                                        Please enter your name.
+                                    </Form.Control.Feedback>
                                 </Form.Group>
                                 <div style={{ marginBottom: '3px' }} />
                                 <Form.Group>
@@ -114,7 +131,11 @@ function Contact() {
                                         placeholder="Enter your email"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
+                                        isInvalid={!emailValid}
                                     />
+                                    <Form.Control.Feedback type="invalid">
+                                        Please enter a valid email address.
+                                    </Form.Control.Feedback>
                                 </Form.Group>
                                 <div style={{ marginBottom: '3px' }} />
                                 <Form.Group>
