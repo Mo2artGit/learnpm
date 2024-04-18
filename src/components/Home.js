@@ -111,7 +111,9 @@ function Home() {
                 What We Do: We are Agile experts providing you with our industry-leading 360° Assessment, coaching, and training.
               </p>
             </Carousel.Caption>
-            <Button variant="outline-light" style={buttonstyle}>Collaborate</Button>
+            <Link to="/about">
+              <Button variant="outline-light" style={buttonstyle}>Collaborate</Button>
+            </Link>
           </Carousel.Item>
           <Carousel.Item>
             <img src={Si2} className="d-block w-100" alt="Second slide" style={scrollImageStyle} />
@@ -194,10 +196,14 @@ function Home() {
             <Col xs={3}>
               <Row>
                 <Col xs={12}>
-                  <Button variant="outline-secondary" className="mb-3">Who We Are</Button>
+                  <Link to="/about">
+                    <Button variant="outline-secondary" className="mb-3">Who We Are</Button>
+                  </Link>
                 </Col>
                 <Col xs={12}>
-                  <Button variant="outline-secondary" className="mb-3">What We Do</Button>
+                  <Link to="/about">
+                    <Button variant="outline-secondary" className="mb-3">What We Do</Button>
+                  </Link>
                 </Col>
                 <Col xs={12}>
                   <Link to="/contact">
