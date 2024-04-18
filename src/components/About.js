@@ -130,10 +130,10 @@ const About = () => {
   };
   const leadershipProfiles = [
     { id: 1, name: 'Raj Heda', description: 'Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results.', imgSrc: ins_img_1 },
-    { id: 2, name: 'Raj Heda', description: 'Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results.', imgSrc: ins_img_2 },
-    { id: 3, name: 'Raj Heda', description: 'Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results.', imgSrc: ins_img_3 },
-    { id: 4, name: 'Raj Heda', description: 'Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results.', imgSrc: ins_img_4 },
-    { id: 5, name: 'Raj Heda', description: 'Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results.', imgSrc: ins_img_5 },
+    { id: 2, name: 'Samantha Patel', description: 'Samantha Patel is a seasoned technology leader with a passion for fostering innovation and driving digital transformation. With over 15 years of experience in software engineering and project management.', imgSrc: ins_img_2 },
+    { id: 3, name: 'Marcus Nguyen', description: 'Marcus Nguyen is a dynamic leader known for his strategic vision and ability to build high-performing teams. With a background in business administration and a keen understanding of market trends, he excels at driving organizational growth and maximizing profitability.', imgSrc: ins_img_3 },
+    { id: 4, name: 'Emily Johnson', description: 'Emily Johnson is a seasoned Agile coach and mentor with a strong background in organizational psychology. She is passionate about empowering teams to achieve their full potential and has a proven track record of driving Agile transformation in diverse industries.', imgSrc: ins_img_4 },
+    { id: 5, name: 'Alexandre Dubois', description: 'Alexandre Dubois is an experienced technology executive with a deep expertise in cloud computing and cybersecurity. He is known for his strategic mindset and hands-on approach to leadership, driving innovation and operational excellence across global organizations.', imgSrc: ins_img_5 },
   ];
 
   // Return the component's JSX
