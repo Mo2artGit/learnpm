@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/learnpm/static/css/main.d8c54ad2.css",
-    "main.js": "/learnpm/static/js/main.a5d3c0cf.js",
+    "main.js": "/learnpm/static/js/main.27553cd7.js",
     "static/js/608.886bba40.chunk.js": "/learnpm/static/js/608.886bba40.chunk.js",
     "static/js/89.a6de87b6.chunk.js": "/learnpm/static/js/89.a6de87b6.chunk.js",
-    "static/js/689.39f58bf4.chunk.js": "/learnpm/static/js/689.39f58bf4.chunk.js",
     "static/js/450.9f616ed5.chunk.js": "/learnpm/static/js/450.9f616ed5.chunk.js",
     "static/js/959.58a47ad6.chunk.js": "/learnpm/static/js/959.58a47ad6.chunk.js",
     "static/js/120.94e9f94c.chunk.js": "/learnpm/static/js/120.94e9f94c.chunk.js",
@@ -57,11 +56,11 @@
     "static/media/cl28.jpeg": "/learnpm/static/media/cl28.9f229f849fd95aae5197.jpeg",
     "index.html": "/learnpm/index.html",
     "main.d8c54ad2.css.map": "/learnpm/static/css/main.d8c54ad2.css.map",
-    "main.a5d3c0cf.js.map": "/learnpm/static/js/main.a5d3c0cf.js.map",
+    "main.27553cd7.js.map": "/learnpm/static/js/main.27553cd7.js.map",
     "453.e4bc6ea5.chunk.js.map": "/learnpm/static/js/453.e4bc6ea5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8c54ad2.css",
-    "static/js/main.a5d3c0cf.js"
+    "static/js/main.27553cd7.js"
   ]
 }
